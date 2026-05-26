@@ -1,0 +1,160 @@
+/* HERO SECTION */
+.heroSection {
+  background: linear-gradient(rgba(109, 16, 32, 0.95), rgba(109, 16, 32, 0.95)), url('/Images/doduls%20image/red%20doduls.png');
+  background-size: auto, 350px;
+  background-repeat: repeat;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroBadge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(201, 146, 42, 0.2);
+  color: var(--gold-light);
+  border: 1px solid rgba(201, 146, 42, 0.4);
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.heroSection h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.heroSection h1 span {
+  color: var(--gold);
+}
+
+.heroSection p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+/* CATEGORY SECTIONS */
+.categorySection {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.categorySection.altBg {
+  background: #fdfbf7;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.iconBox {
+  width: 60px;
+  height: 60px;
+  background: rgba(201, 146, 42, 0.1);
+  color: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.sectionHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: var(--maroon);
+  font-weight: 700;
+  margin: 0;
+}
+
+.sectionHeader h2 span {
+  color: var(--gold);
+}
+
+/* CARDS */
+.deptCard {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid rgba(123, 18, 32, 0.08);
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  height: 100%;
+}
+
+.deptCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(123, 18, 32, 0.1);
+  border-color: var(--gold);
+}
+
+.cardIcon {
+  font-size: 2.5rem;
+  color: var(--maroon);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.deptCard:hover .cardIcon {
+  transform: scale(1.1);
+  color: var(--gold);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.cardAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.actionIcon {
+  transition: transform 0.3s ease;
+}
+
+.deptCard:hover .actionIcon {
+  transform: translateX(5px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .heroSection { padding: 60px 0; }
+  .heroSection h1 { font-size: 2.5rem; }
+  .categorySection { padding: 50px 0; }
+  .sectionHeader h2 { font-size: 2rem; }
+}

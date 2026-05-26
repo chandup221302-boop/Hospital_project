@@ -1,0 +1,42 @@
+.ca-section{padding:3rem 1.2rem}
+.ca-badge{display:inline-flex;align-items:center;gap:6px;background:#f8e8e6;color:#8B1A10;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:5px 16px;border-radius:30px;margin-bottom:12px}
+.ca-title{font-size:clamp(24px,4vw,32px);font-weight:800;color:#111;margin:0 0 8px;line-height:1.2}
+.ca-sub{font-size:15px;color:#666;margin:0 0 2.5rem}
+.ca-card{position:relative;overflow:hidden;background:#fff;border:1.5px solid rgba(139,26,16,0.15);border-radius:18px;padding:1.75rem 1.4rem 1.5rem;cursor:pointer;transition:all 0.28s cubic-bezier(0.4,0,0.2,1);text-decoration:none;display:block;height:100%}
+.ca-card::before{content:'';position:absolute;inset:0;background:#8B1A10;transform:translateY(100%);transition:transform 0.32s cubic-bezier(0.4,0,0.2,1);z-index:0;border-radius:16px}
+.ca-card:hover{border-color:#8B1A10;box-shadow:0 12px 36px rgba(139,26,16,0.18);transform:translateY(-4px)}
+.ca-card:hover::before{transform:translateY(0)}
+.ca-card>*{position:relative;z-index:1}
+.ca-icon-wrap{width:50px;height:50px;border-radius:13px;background:#f8e8e6;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;transition:background 0.28s ease}
+.ca-card:hover .ca-icon-wrap{background:rgba(255,255,255,0.2)}
+.ca-icon-wrap i{font-size:22px;color:#8B1A10;transition:color 0.28s ease}
+.ca-card:hover .ca-icon-wrap i{color:#fff}
+.ca-card-title{font-size:17px;font-weight:800;color:#111;margin:0 0 8px;transition:color 0.28s ease;line-height:1.2}
+.ca-card:hover .ca-card-title{color:#fff}
+.ca-card-desc{font-size:13px;color:#555;margin:0 0 1rem;line-height:1.75;transition:color 0.28s ease}
+.ca-card:hover .ca-card-desc{color:rgba(255,255,255,0.82)}
+.ca-highlights{list-style:none;padding:0;margin:0 0 1.1rem}
+.ca-highlights li{font-size:12.5px;color:#555;padding:3px 0 3px 20px;position:relative;line-height:1.5;transition:color 0.28s ease}
+.ca-highlights li::before{content:'';position:absolute;left:4px;top:10px;width:6px;height:6px;border-radius:50%;background:#8B1A10;transition:background 0.28s ease}
+.ca-card:hover .ca-highlights li{color:rgba(255,255,255,0.82)}
+.ca-card:hover .ca-highlights li::before{background:rgba(255,255,255,0.7)}
+.ca-card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:1.1rem}
+.ca-tag{font-size:11px;font-weight:700;letter-spacing:0.4px;padding:3px 10px;border-radius:20px;background:#f8e8e6;color:#8B1A10;transition:background 0.28s,color 0.28s}
+.ca-card:hover .ca-tag{background:rgba(255,255,255,0.18);color:#fff}
+.ca-cta{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#8B1A10;transition:color 0.28s ease}
+.ca-card:hover .ca-cta{color:#fff}
+.ca-cta i{font-size:15px;transition:transform 0.25s ease}
+.ca-card:hover .ca-cta i{transform:translateX(4px)}
+
+/* GRID: CSS Grid instead of Bootstrap columns — fully responsive without breakpoint dependency */
+.ca-grid-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 991px) {
+  .ca-grid-row { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .ca-grid-row { grid-template-columns: 1fr; }
+}

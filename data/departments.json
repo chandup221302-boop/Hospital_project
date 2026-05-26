@@ -1,0 +1,2946 @@
+[
+  {
+    "slug": "general-medicine",
+    "title": "General Medicine",
+    "category": "Clinical",
+    "description": "The Department of General Medicine at Heritage IMS provides comprehensive medical care, specializing in the diagnosis, treatment, and management of a wide range of acute and chronic illnesses. Our experienced physicians offer personalized and evidence-based care, ensuring effective treatment tailored to each patient’s specific needs. Services include regular health check-ups, chronic disease management, infectious disease treatment, preventive medicine, and acute care. With advanced facilities, a patient-centered approach, and a commitment to holistic health, we prioritize patient comfort and satisfaction, delivering the highest quality care for optimal health outcomes.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1   1   2   3   4",
+        "name": "Dr.S K Singh   Dr.Madhukar Rai   Dr.M S Siddiqui   Dr.Haramohan Sahoo   Dr.Yogesh Kumar Gaur",
+        "qualification": "MD,DM   MD,DM   MD   MD,DM   MD",
+        "designation": "Professor   Professor   Professor   Assistant Professor   Assistant Professor",
+        "registrationNo": "29879   35523   16590   65259",
+        "image": ""
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Shobhit Agarwal",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "DMC/R/7145",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Shobhit Agarwal.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Abhijit Rai",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "110248",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Abhijit Rai.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Trinayani Barua",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "22485",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Trinayani Barua.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Sumit Maini",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "40078",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Sumit Maini.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Jothi Lakshmi Velu",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "66688",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Jothi Lakshmi Velu.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Awanish Kumar Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "11755",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Awanish Kumar Singh.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Jaseem Ahmed",
+        "qualification": "DNB",
+        "designation": "Assistant Professor",
+        "registrationNo": "16120",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Jaseem Ahmed.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Mendrapara Avani Vinodbhai",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "G-29620",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Mendrapara Avani Vinodbhai.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Santosh Kumar Yadav",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "11813",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Santosh Kumar Yadav.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Rohit Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "67645",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Rohit Singh.webp"
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Dilip Chaurasiya",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "DMC/R/13716",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Dilip Chaurasiya.webp"
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Shailendra Kumar",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "82330",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Shailendra Kumar.webp"
+      },
+      {
+        "sno": "17",
+        "name": "Dr.ShyamSunder Dubey",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "102387",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.ShyamSunder Dubey.webp"
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Pankaj Goyal",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "82725",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Pankaj Goyal.webp"
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Meena Rajendra Prasad",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "20189",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Meena Rajendra Prasad.webp"
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Sakshi Giri",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "88882",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Sakshi Giri.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Himanshu Singla",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "50866",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Himanshu Singla.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Vishal Sharma",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "75714",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Vishal Sharma.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Krishna Chandra",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "89907",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Krishna Chandra.webp"
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Vikas Verma",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "CGMC 9875/2020",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Vikas Verma.webp"
+      },
+      {
+        "sno": "25",
+        "name": "Dr.Konkeesa Manaswini Reddy",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "18654",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Konkeesa Manaswini Reddy.webp"
+      },
+      {
+        "sno": "26",
+        "name": "Dr.Srinivas Achaju Newar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "SMC/01597",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Srinivas Achaju Newar.webp"
+      },
+      {
+        "sno": "27",
+        "name": "Dr.Prashant Pabdey",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "93958",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Prashant Pabdey.webp"
+      },
+      {
+        "sno": "28",
+        "name": "Dr.Akash Marade",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2021/04/3132",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Akash Marade.webp"
+      },
+      {
+        "sno": "29",
+        "name": "Dr.Ashish Jangid",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2022/05/1246",
+        "image": "/Images/DEPARTMENTS/Clinical/General Medicine/Dr.Ashish Jangid.webp"
+      }
+    ]
+  },
+  {
+    "slug": "comm-medicine",
+    "title": "Community Medicine",
+    "category": "Clinical",
+    "description": "The Department of Community Medicine at Heritage IMS focuses on the health of populations through preventive medicine, health promotion, and public health initiatives. Our multidisciplinary team works to understand and address the social, environmental, and behavioral determinants of health, aiming to improve overall community well-being. With a strong emphasis on research, education, and outreach, we prepare students and professionals to tackle public health challenges, implement effective health policies, and provide community-based healthcare services. Through partnerships and innovative programs, we strive to create healthier communities and reduce health disparities.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.V.K Mehta",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "13.13854",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.V.K Mehta.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.C.P Mishra",
+        "qualification": "PhD",
+        "designation": "Professor",
+        "registrationNo": "17-24715",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.C.P Mishra.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Tapan Mandal",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "18858",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Tapan Mandal.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Dheeraj Sharma",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "18-29090",
+        "image": ""
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Manu Uppal",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "22-004673",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Manu Uppal.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Saumya Srivastava",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "60514",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Saumya Srivastava.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Arein Md.Islam",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "9686",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Arein Md.Islam.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Anjum Zari",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "95484",
+        "image": ""
+      },
+      {
+        "sno": "9",
+        "name": "Mr.Ayub Khan",
+        "qualification": "M.Sc",
+        "designation": "Statistician",
+        "registrationNo": "NIL",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Mr.Ayub Khan.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Mr.Divyanshi Singh",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "108751",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Mr.Divyanshi Singh.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Praveen Kumar",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "90466",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Praveen Kumar.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Manjeet Raj",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "100058",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Manjeet Raj.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Priyabrat Mishra",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "108843",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Priyabrat Mishra.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Anand Kumar Maurya",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "98320",
+        "image": "/Images/DEPARTMENTS/Clinical/Community Medicine/Dr.Anand Kumar Maurya.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ortho-2",
+    "title": "Orthopedics",
+    "category": "Clinical",
+    "description": "The Department of Orthopaedics at Heritage IMS offers specialized care for musculoskeletal conditions, focusing on the diagnosis, treatment, and rehabilitation of bone, joint, and spinal disorders. Our team of experienced orthopaedic surgeons employs advanced techniques and technologies, including minimally invasive surgery and state-of-the-art joint replacement procedures, to provide comprehensive care tailored to each patient’s needs. We emphasize a multidisciplinary approach to manage acute injuries, chronic conditions, and degenerative diseases, aiming to restore function and improve quality of life. Through innovative treatment plans and dedicated rehabilitation, we strive to deliver optimal outcomes for all our patients.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Shyam Kumar Saraf",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "20726",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Shyam Kumar Saraf.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Amit Rastogi",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "33620",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Amit Rastogi.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Anil Kumar Rai",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "26395",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Anil Kumar Rai.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Niket Raj Garg",
+        "qualification": "DNB",
+        "designation": "Associate Professor",
+        "registrationNo": "UPMC-96504",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Niket Raj Garg.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Pankaj Kumar Singh",
+        "qualification": "MS",
+        "designation": "Associate Professor",
+        "registrationNo": "99672",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Pankaj Kumar Singh.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Rohit Pandey",
+        "qualification": "MS",
+        "designation": "Associate Professor",
+        "registrationNo": "SMC-87083",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Rohit Pandey.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Avinash Kumar Singh",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "HN-21144",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Avinash Kumar Singh.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Abhinay Kumar Singh",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "93782",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Abhinay Kumar Singh.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Akhilesh Kumar Barnawal",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "64391",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Akhilesh Kumar Barnawal.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Rakesh Kumar Pareek",
+        "qualification": "DNB",
+        "designation": "Assistant Professor",
+        "registrationNo": "9377",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Rakesh Kumar Pareek.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Akhilesh Singh Kushwaha",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "16094",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Akhilesh Singh Kushwaha.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Chandan Kishor",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "58375",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Chandan Kishor.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Harshit Patel",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "129171",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Harshit Patel.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Rohit Kumar",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "110131",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Rohit Kumar.webp"
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Kalyanpur Vikram",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "APMC-98782",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Kalyanpur Vikram.webp"
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Ashutosh Kumar Upadhyay",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "66247",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Ashutosh Kumar Upadhyay.webp"
+      },
+      {
+        "sno": "17",
+        "name": "Dr.Pahul Bansal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "54755",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Pahul Bansal.webp"
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Vachan Goyal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "99953",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Vachan Goyal.webp"
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Ambuj Mittal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "80482",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Ambuj Mittal.webp"
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Deepak Kumar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2020/05/4178",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Deepak Kumar.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Dinesh Kumar Chaturvedi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "UPMC-77877",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Dinesh Kumar Chaturvedi.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Ankit Anand",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "24899",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Ankit Anand.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Yash Thakur",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "78885",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Yash Thakur.webp"
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Abhishek Shekar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "92997",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Abhishek Shekar.webp"
+      },
+      {
+        "sno": "25",
+        "name": "Dr.Abhay Kumar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "52912",
+        "image": "/Images/DEPARTMENTS/Clinical/Orthopedics/Dr.Abhay Kumar.webp"
+      }
+    ]
+  },
+  {
+    "slug": "emergency-medicine",
+    "title": "Emergency Medicine",
+    "category": "Clinical",
+    "description": "The Department of Emergency Medicine at Heritage IMS is dedicated to providing rapid and comprehensive care for acute medical conditions and emergencies. Our team of highly trained emergency physicians and support staff are equipped with advanced diagnostic tools and treatments to handle a wide range of urgent situations, from traumatic injuries to life-threatening illnesses. With a focus on swift, effective intervention and patient stabilization, we ensure timely and compassionate care in critical moments. Our commitment to excellence and continuous improvement in emergency care helps us deliver high-quality service and positive outcomes for all patients.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Prasant",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "17071",
+        "image": "/Images/DEPARTMENTS/Clinical/Emergency medicine/Dr.Prasant.webp"
+      }
+    ]
+  },
+  {
+    "slug": "radiology",
+    "title": "Radiology",
+    "category": "Clinical",
+    "description": "The Department of Radiology at Heritage IMS provides expert imaging services to support accurate diagnosis and effective treatment across various medical conditions. Utilizing cutting-edge technology, including MRI, CT scans, ultrasound, and X-rays, our skilled radiologists deliver precise imaging and interpretative services to guide clinical decision-making. We emphasize a patient-centered approach, ensuring comfort and safety during procedures, while our advanced imaging techniques help in early detection and monitoring of diseases. Committed to excellence in diagnostic imaging and ongoing research, we strive to enhance patient care and outcomes through innovation and expertise.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Gaurav Sharma",
+        "qualification": "DNB",
+        "designation": "Professor",
+        "registrationNo": "PR/RJJ/RT10032RDG2",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Gaurav Sharma.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Priti Srivastava Kapoor",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "71268",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Priti Srivastava Kapoor.jpg"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Pragya Ghosh",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "36118",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Pragya Ghosh.jpg"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Rohan Kumar Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "10776",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Rohan Kumar Singh.jpg"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Ankit Patel",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "69897",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Ankit Patel.jpg"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Pankaj Kumar Das",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "69111",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Pankaj Kumar Das.jpg"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Pranav Singhal",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "90525",
+        "image": "/Images/DEPARTMENTS/Clinical/Radiology/Dr.Pranav Singhal.jpg"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Sumit Kumar Verma",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "43039",
+        "image": ""
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Sunil Meena",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "22018",
+        "image": ""
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Vishal Kumar Singh",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "12218",
+        "image": ""
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Nirali mahesh Kumar Patel",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "G-28027",
+        "image": ""
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Shaikh Faizan Ahmed",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2015010190",
+        "image": ""
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Sunny Gupta",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "Mp-25896",
+        "image": ""
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Arnab Chaudhuri",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "76869",
+        "image": ""
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Kanwalpreet Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC/55861",
+        "image": ""
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Sumeet Singh Wereh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "54010",
+        "image": ""
+      },
+      {
+        "sno": "17",
+        "name": "Dr.Sachin",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "100558",
+        "image": ""
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Varun CR",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "97540",
+        "image": ""
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Warun Bansal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "C.G.M.C 12409/2022",
+        "image": ""
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Samarpan Raheja",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "HN15802",
+        "image": ""
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Farhatullah Ansari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "86120",
+        "image": ""
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Bhupesh Goyal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "54762",
+        "image": ""
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Prawal Pratap Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "RMC-58315",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "slug": "ent-2",
+    "title": "ENT",
+    "category": "Clinical",
+    "description": "The Department of ENT (Ear, Nose, and Throat) at Heritage IMS provides specialized care for a variety of conditions affecting the head and neck region. Our skilled ENT specialists diagnose and treat disorders related to the ears, nose, throat, and related structures, including hearing loss, sinus infections, and voice disorders. Utilizing advanced diagnostic tools and cutting-edge surgical techniques, we offer both medical and surgical interventions tailored to each patient’s needs. Our focus on comprehensive, patient-centered care ensures effective treatment and management, enhancing quality of life and overall well-being.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Shawin Kumar Singh",
+        "qualification": "MD,MS",
+        "designation": "Professor",
+        "registrationNo": "35469",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Shawin Kumar Singh.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Vilash Pundilik Bhole",
+        "qualification": "MS",
+        "designation": "Associate Professor",
+        "registrationNo": "5696",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Vilash Pundilik Bhole.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.KM Tiwari",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "17-26889",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.KM Tiwari.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Abhinav Mishra",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "90678",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Abhinav Mishra.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Harsh Singh",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "2016030418",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Harsh Singh.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Amit Kumar Tiwari",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "13328",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Amit Kumar Tiwari.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Nidhi Srivastava",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "24649",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Nidhi Srivastava.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Sudeshna Bandyopadhyay",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "MP-26441",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Sudeshna Bandyopadhyay.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Minu S Kumar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "61702",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Minu S Kumar.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Priyanka Tiwari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "78502",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Priyanka Tiwari.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Aishwarya Seth",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "89515",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Aishwarya Seth.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Shefali Verma",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "92662",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Shefali Verma.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Abhinav Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "79513",
+        "image": "/Images/DEPARTMENTS/Clinical/ENT/Dr.Abhinav Singh.webp"
+      }
+    ]
+  },
+  {
+    "slug": "anaesthesiology",
+    "title": "Anaesthesiology",
+    "category": "Clinical",
+    "description": "The Department of Anaesthesiology at Heritage IMS is committed to providing exceptional perioperative care, pain management, and critical care services. Our team of highly skilled anaesthesiologists utilizes the latest advancements in anaesthetic techniques and technology to ensure patient safety and comfort during surgical procedures. We offer comprehensive pain management solutions for both acute and chronic conditions, and our expertise extends to critical care, providing life-saving interventions in intensive care settings. With a focus on personalized patient care and continuous improvement, we strive to deliver the highest standards of anaesthesiology services.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Pushkar Ranjan",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "26962",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Pushkar Ranjan.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Akhilesh Mishra",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "60591",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Akhilesh Mishra.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Sulakshna",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "38457",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Sulakshna.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Anil Kumar",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "DMC-65140",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Anil Kumar.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Ankur",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "60324",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Ankur.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Raj Kumar Choubey",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "38364",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Raj Kumar Choubey.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Deepshikha",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "48858",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Deepshikha.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Pragya Shukla",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "90870",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Pragya Shukla.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Sushila Yadav",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "102131",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Sushila Yadav.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Rahul Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "3229",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Rahul Singh.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Hardik Ajit Kumar Parekh",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "DMC/R/18335",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Hardik Ajit Kumar Parekh.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Neha Singh",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "100456",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Neha Singh.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Priyanka Awasthi",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "10685",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Priyanka Awasthi.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Chandan Jaiswal",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "8556",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Chandan Jaiswal.webp"
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Ajinkya Kanchi",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "TSMC/FMR/10644",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Ajinkya Kanchi.webp"
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Rahul Singh",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "86124",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Rahul Singh.webp"
+      },
+      {
+        "sno": "17",
+        "name": "Dr.Shilpi Pandey",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "81586",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Shilpi Pandey.webp"
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Akriti Sinha",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2019/04/2157",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Akriti Sinha.webp"
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Shrey Gaikwad",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2020/11/6324",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Shrey Gaikwad.webp"
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Tanvi Anand",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "92249",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Tanvi Anand.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Abhikanksha",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "50376",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Abhikanksha.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Deeparampuria",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC/R/28139",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Deeparampuria.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Shripati Tripathi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "UP-75696",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Shripati Tripathi.webp"
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Abhinav Singh Heyar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "52012",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Abhinav Singh Heyar.webp"
+      },
+      {
+        "sno": "25",
+        "name": "Dr.Kajal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC/R/33976",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Kajal.webp"
+      },
+      {
+        "sno": "26",
+        "name": "Dr.Rajnikant Shandilya",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "80024",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Rajnikant Shandilya.webp"
+      },
+      {
+        "sno": "27",
+        "name": "Dr.Lucky Gaurav Sachan",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "97377",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Lucky Gaurav Sachan.webp"
+      },
+      {
+        "sno": "28",
+        "name": "Dr.Rishabh Gaur",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "86762",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Rishabh Gaur.webp"
+      },
+      {
+        "sno": "29",
+        "name": "Dr.Sauraya Pratap Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "102224",
+        "image": ""
+      },
+      {
+        "sno": "30",
+        "name": "Dr.Akash Maurya",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "99103",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Akash Maurya.webp"
+      },
+      {
+        "sno": "31",
+        "name": "Dr.Kirti Pandey",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "71416",
+        "image": "/Images/DEPARTMENTS/Clinical/Anaesthesiology/Dr.Kirti Pandey.webp"
+      }
+    ]
+  },
+  {
+    "slug": "anatomy",
+    "title": "Anatomy",
+    "category": "Non Clinical",
+    "description": "The Department of Anatomy at Heritage IMS is dedicated to the study and teaching of the human body’s structure, offering a comprehensive understanding of its various systems and functions. Our state-of-the-art facilities and experienced faculty provide an in-depth education through practical dissections, histology, and advanced imaging techniques. Emphasizing both theoretical knowledge and hands-on experience, we prepare students for successful careers in medicine and research, fostering a deep appreciation for the complexities of human anatomy and its critical role in healthcare.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr. Vipin",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "35478",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Dr. Vipin.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr. Sajad",
+        "qualification": "Phd",
+        "designation": "Associate Professor",
+        "registrationNo": "950115504",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Dr. Sajad.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Mr. Rahul",
+        "qualification": "Msc",
+        "designation": "Assistant Professor",
+        "registrationNo": "NIL",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Mr. Rahul.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Kanika",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "C.G.M.C 10498/2020",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Dr.Kanika.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Harsh Ranjan",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "77189",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Dr.Harsh Ranjan.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr. Hitendra Mishra",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "98155",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Dr. Hitendra Mishra.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Diksha Singh",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "98819",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Anatomy/Dr.Diksha Singh.webp"
+      }
+    ]
+  },
+  {
+    "slug": "tb-amp-chest",
+    "title": "TB & Chest (Respiratory Medicine)",
+    "category": "Clinical",
+    "description": "The Department of TB & Chest at Heritage IMS is dedicated to the diagnosis, treatment, and management of tuberculosis and other respiratory conditions. Our specialized team of pulmonologists and infectious disease experts uses advanced diagnostic tools and treatment protocols to address both common and complex chest-related issues, including chronic obstructive pulmonary disease (COPD), asthma, and interstitial lung diseases. With a focus on comprehensive care and patient education, we provide tailored treatment plans to improve respiratory health and quality of life, striving to deliver the highest standard of care for all our patients.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Govind Narayan Srivastava",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "27874",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Govind Narayan Srivastava.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Vikas Deep Mishra",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "51905",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Vikas Deep Mishra.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Vinod Kumar",
+        "qualification": "DNB",
+        "designation": "Assistant Professor",
+        "registrationNo": "58835",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Vinod Kumar.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Om Prakash Kashyap",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "51906",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Om Prakash Kashyap.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Abhishek Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "105686",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Abhishek Singh.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Rahul Kuruvilla",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "62475",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Rahul Kuruvilla.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Priyanka Chhabaria",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2020042911",
+        "image": ""
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Siddharth Mishra",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "RML-52912",
+        "image": ""
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Jasmine",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "56304",
+        "image": ""
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Arif Qureshi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2020/05/3439",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Arif Qureshi.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Shweta",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "69306",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Shweta.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Lodhiya Vihar Dineshbhai",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "G-62320",
+        "image": "/Images/DEPARTMENTS/Clinical/TB & Chest (Respiratory Medicine)/Dr.Lodhiya Vihar Dineshbhai.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Sharma Akshay Praveen",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2021/03/1068",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "slug": "derma",
+    "title": "Dermatology",
+    "category": "Clinical",
+    "description": "The Department of Dermatology at Heritage IMS provides expert care for a wide range of skin conditions, including acne, eczema, psoriasis, and skin cancer. Our skilled dermatologists utilize advanced diagnostic tools and cutting-edge treatments to address both common and complex dermatological issues. From routine skin evaluations to advanced cosmetic procedures, we offer comprehensive care tailored to each patient’s needs. With a focus on achieving healthy, radiant skin and enhancing overall well-being, our commitment to excellence ensures the highest standards of dermatological care and patient satisfaction.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Rashmi Singh",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "90106",
+        "image": ""
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Mugdha Manoj Kulkarni",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "MMC/2017/12/5668",
+        "image": "/Images/DEPARTMENTS/Clinical/Dermatology/Dr.Mugdha Manoj Kulkarni.webp"
+      }
+    ]
+  },
+  {
+    "slug": "surgery",
+    "title": "General Surgery",
+    "category": "Clinical",
+    "description": "The Department of Surgery at Heritage IMS offers cutting-edge surgical care and training, focusing on a wide range of surgical procedures and techniques. Our team of skilled surgeons utilizes the latest advancements in surgical technology and minimally invasive techniques to ensure optimal patient outcomes. Through comprehensive clinical training and hands-on experience, we prepare students to excel in various surgical specialties, from general surgery to complex procedures. With a commitment to excellence, patient safety, and innovative research, we strive to advance the field of surgery and deliver the highest quality care.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1   2    3",
+        "name": "Dr.V K Dixit   Dr.Saurabh Agrawal    Dr.Pradeep Jain",
+        "qualification": "MD,DM   MS    MS,MCh,PhD",
+        "designation": "Professor   Professor    Professor",
+        "registrationNo": "6707    UPMC-21931",
+        "image": ""
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Mohd Mojeeb Ahsan",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "108528",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Mohd Mojeeb Ahsan.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Sanjay Prasad",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "MP-4488",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Sanjay Prasad.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Girish Pandey",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "078538",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Girish Pandey.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Mahendra Singh",
+        "qualification": "MCh",
+        "designation": "Professor",
+        "registrationNo": "39211",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Mahendra Singh.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Shravan Kumar Mishra",
+        "qualification": "MS",
+        "designation": "Associate Professor",
+        "registrationNo": "18-29358",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Shravan Kumar Mishra.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Mayank Mishra",
+        "qualification": "MS",
+        "designation": "Associate Professor",
+        "registrationNo": "55298",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Mayank Mishra.webp"
+      },
+      {
+        "sno": "10   11   12",
+        "name": "Dr.Vivekanand Rai   Dr.Alok Kumar Ojha   Dr.Neeraj Sharma",
+        "qualification": "MS   MS,MCh,DNB   MS,MCh",
+        "designation": "Associate Professor   Assistant Professor   Assistant Professor",
+        "registrationNo": "55637   75164   UP-96676",
+        "image": ""
+      },
+      {
+        "sno": "13   14   15",
+        "name": "Dr.Puspendra Singh   Dr.Aditya Narayan Choudhary   Dr.Sanjeev Kumar",
+        "qualification": "MS   MS,MCh   MS,MCh",
+        "designation": "Assistant Professor   Assistant Professor   Assistant Professor",
+        "registrationNo": "56856   66729   35852",
+        "image": ""
+      },
+      {
+        "sno": "16   17    18",
+        "name": "Dr.Prasenjit Singh   Dr.Nilesh Kumar Rai    Dr.Mudit Maheshwari",
+        "qualification": "MS   MD,DM    MS,MCH",
+        "designation": "Assistant Professor   Assistant Professor    Assistant Professor",
+        "registrationNo": "96230   19853    100763",
+        "image": ""
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Ganesh Chandra Yadav",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "65002",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Ganesh Chandra Yadav.webp"
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Devesh Nibhani",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "MP-19083",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Devesh Nibhani.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Dhiraj V Khitani",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "2014/04/1354",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Dhiraj V Khitani.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Saumya Singh",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "70654",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Saumya Singh.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Amit Kumar Tiwari",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "66609",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Amit Kumar Tiwari.webp"
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Harendra Ojha",
+        "qualification": "MCh",
+        "designation": "Assistant Professor",
+        "registrationNo": "G-86290",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Harendra Ojha.webp"
+      },
+      {
+        "sno": "25",
+        "name": "Dr.Deepak Prasad Agrahari",
+        "qualification": "MCh",
+        "designation": "Assistant Professor",
+        "registrationNo": "47297",
+        "image": ""
+      },
+      {
+        "sno": "26",
+        "name": "Dr.Ved Prakash Upadhyay",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "20-000766",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Ved Prakash Upadhyay.webp"
+      },
+      {
+        "sno": "27",
+        "name": "Dr.Azhar Anwar",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "08/32574",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Azhar Anwar.webp"
+      },
+      {
+        "sno": "28",
+        "name": "Dr.Kamlesh Kumar Singh",
+        "qualification": "MCh",
+        "designation": "SR",
+        "registrationNo": "MCI/12-45642",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Kamlesh Kumar Singh.webp"
+      },
+      {
+        "sno": "29",
+        "name": "Dr.Deep Anup Dhawan",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "2017/07/3196",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Deep Anup Dhawan.webp"
+      },
+      {
+        "sno": "30",
+        "name": "Dr.Syed Ghazankar Imam",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "60952",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Syed Ghazankar Imam.webp"
+      },
+      {
+        "sno": "31",
+        "name": "Dr.Ritu Yadav",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "85714",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Ritu Yadav.webp"
+      },
+      {
+        "sno": "32",
+        "name": "Dr.Rakesh Kumar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "77424",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Rakesh Kumar.webp"
+      },
+      {
+        "sno": "33",
+        "name": "Dr.Jyoti Kumari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "5779",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Jyoti Kumari.webp"
+      },
+      {
+        "sno": "34",
+        "name": "Dr.Chandan Kumar Mishra",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "79472",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Chandan Kumar Mishra.webp"
+      },
+      {
+        "sno": "35",
+        "name": "Dr.Ashish Kumar Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "85215",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Ashish Kumar Singh.webp"
+      },
+      {
+        "sno": "36",
+        "name": "Dr.Ajay Kumar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC-R/21223",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Ajay Kumar.webp"
+      },
+      {
+        "sno": "37",
+        "name": "Dr.Shikha Pandey",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "96985",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Shikha Pandey.webp"
+      },
+      {
+        "sno": "38",
+        "name": "Dr.Pullaiah Gari Jagan Mohan Reddy",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "APMC/FMR/116162",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Pullaiah Gari Jagan Mohan Reddy.webp"
+      },
+      {
+        "sno": "39",
+        "name": "Dr.Shiwansh Yadav",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2023/07/2728",
+        "image": "/Images/DEPARTMENTS/Clinical/General Surgery/Dr.Shiwansh Yadav.webp"
+      }
+    ]
+  },
+  {
+    "slug": "biochemistry-2",
+    "title": "Biochemistry",
+    "category": "Non Clinical",
+    "description": "The Department of Biochemistry at Heritage IMS is dedicated to exploring the chemical processes within and related to living organisms, providing crucial insights into the molecular mechanisms of health and disease. Our advanced laboratories and experienced faculty offer a rigorous curriculum that combines theoretical knowledge with practical applications, preparing students for careers in medical research, diagnostics, and healthcare. By leveraging cutting-edge technology and research methodologies, we strive to advance the understanding of biochemical processes, contributing to innovative treatments and therapies that enhance patient care and outcomes.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Shailja Shrestha",
+        "qualification": "PhD",
+        "designation": "Associate Professor",
+        "registrationNo": "950115511",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Dr.Shailja Shrestha.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Ajit Yadv",
+        "qualification": "PhD",
+        "designation": "Assistant Professor",
+        "registrationNo": "MU20PhB014",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Dr.Ajit Yadv.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Mr.Sharad Singh",
+        "qualification": "MSc",
+        "designation": "Assistant Professor",
+        "registrationNo": "MU20PhP007",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Mr.Sharad Singh.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Umesh Kumar",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "49427",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Dr.Umesh Kumar.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Mohd Muzammil Ansari",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "79197",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Dr.Mohd Muzammil Ansari.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Anurag Anand",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "98310",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Dr.Anurag Anand.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Umesh Kumar Maurya",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "79352",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Biochemistry/Dr.Umesh Kumar Maurya.webp"
+      }
+    ]
+  },
+  {
+    "slug": "forensic-medicine",
+    "title": "Forensic Medicine",
+    "category": "Non Clinical",
+    "description": "The Department of Forensic Medicine at Heritage IMS specializes in applying medical knowledge to legal investigations, playing a critical role in the justice system. Our experts conduct thorough examinations and analyses to determine causes of death, injury, and disease in legal contexts, providing vital evidence in criminal and civil cases. With state-of-the-art facilities and a team of experienced forensic pathologists, we offer comprehensive education and training in forensic science, preparing students for careers in forensic pathology, toxicology, and medico-legal investigations. Our commitment to accuracy, ethics, and scientific rigor ensures the highest standards in forensic medicine.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Shailesh Kumar",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "16-21122",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Forensic Medicine/Dr.Shailesh Kumar.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Rohit",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "93745",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Forensic Medicine/Dr.Rohit.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Prachi",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "90520",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Forensic Medicine/Dr.Prachi.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Sandesh Kumar Singh",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "64109",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Forensic Medicine/Dr.Sandesh Kumar Singh.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Pratiksha Patel",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "93604",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Forensic Medicine/Dr.Pratiksha Patel.webp"
+      }
+    ]
+  },
+  {
+    "slug": "obstetrics-amp-gynecology",
+    "title": "Obs & Gynac",
+    "category": "Clinical",
+    "description": "The Department of Obstetrics and Gynecology at Heritage IMS provides comprehensive care for women’s health, focusing on reproductive health, pregnancy, and childbirth. Our expert team delivers a wide range of services, from routine gynecological examinations and prenatal care to advanced treatments for complex obstetric and gynecological conditions. Emphasizing both preventive and therapeutic approaches, we offer personalized care to ensure the health and well-being of our patients. Through cutting-edge technology and a patient-centered approach, we aim to support women at every stage of life, from adolescence through menopause and beyond.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1 2",
+        "name": "Dr.Madhu Jain Dr.Nilam Dixit",
+        "qualification": "MD MS",
+        "designation": "Professor Associate Professor",
+        "registrationNo": "24628 13108",
+        "image": ""
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Lavanya Anuranjani",
+        "qualification": "MS",
+        "designation": "Associate Professor",
+        "registrationNo": "2010041472",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Lavanya Anuranjani.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Chavi Agrawal",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "39682",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Chavi Agrawal.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Ruchika Abhishek Wadgaonkar",
+        "qualification": "DNB",
+        "designation": "Associate Professor",
+        "registrationNo": "2009/06/2545",
+        "image": ""
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Yashi Srivastava",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "70769",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Yashi Srivastava.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Vibha Mishra",
+        "qualification": "DNB",
+        "designation": "Assistant Professor",
+        "registrationNo": "26056",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Vibha Mishra.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Renu Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "79201",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Renu Singh.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Pooja Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "62669",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Pooja Singh.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Garima Singh",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "DMC/R/12001",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Garima Singh.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Swati Gupta",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "73828",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Swati Gupta.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Pooja Maurya",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "74056",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Pooja Maurya.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Gayatri Singh",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "82893",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Gayatri Singh.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Vidhi Chandresh Shah",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "G-33426",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Vidhi Chandresh Shah.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Pritha Chowdhury",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "91401",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Pritha Chowdhury.webp"
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Anjulata Singh",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "59502",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Anjulata Singh.webp"
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Garima Mahendra",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "77318",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Garima Mahendra.webp"
+      },
+      {
+        "sno": "17",
+        "name": "Dr.Akanksha Rai",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "20530",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Akanksha Rai.webp"
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Anaghab S.Bagi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "133049",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Anaghab S.Bagi.webp"
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Prachi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "49668",
+        "image": ""
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Gourishetty Vinisha",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "TSMC/FMR/13328",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Gourishetty Vinisha.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Deepak Singh Jadaun",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "50708",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Deepak Singh Jadaun.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.PatelMIT Alpesh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "MP-27931",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.PatelMIT Alpesh.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Shubhi Vaishya",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "MP-24069",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Shubhi Vaishya.webp"
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Sushmita Singh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "100893",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Sushmita Singh.webp"
+      },
+      {
+        "sno": "25",
+        "name": "Dr.Medha Deep",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "20980",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Medha Deep.webp"
+      },
+      {
+        "sno": "26",
+        "name": "Dr.Km.Archana",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "98144",
+        "image": "/Images/DEPARTMENTS/Clinical/Obs & Gynac/Dr.Km.Archana.webp"
+      }
+    ]
+  },
+  {
+    "slug": "pathology-2",
+    "title": "Pathology",
+    "category": "Non Clinical",
+    "description": "The Department of Pathology at Heritage IMS is dedicated to the study of disease through the examination of tissue, blood, and other bodily fluids. Our expert pathologists employ advanced diagnostic techniques to identify and understand the underlying causes of diseases, guiding effective treatment and management strategies. With a focus on integrating clinical and laboratory findings, our department provides rigorous training and research opportunities, equipping students with the skills necessary for careers in diagnostic pathology, research, and clinical practice. Our commitment to precision and innovation drives improvements in disease diagnosis and patient care.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Ajamal Singh",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "13-15093",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Ajamal Singh.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Neeraj Ku. Singh",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "72724",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Neeraj Ku. Singh.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Vatsala Kishore",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "15806",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Vatsala Kishore.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Umashankar Gupta",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "19-000082",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Umashankar Gupta.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Priyankar Sharma",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "10495",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Priyankar Sharma.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Illa Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "12889",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Illa Singh.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Saumya Pandey",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "09871",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Saumya Pandey.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Nidhish Kumar",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "20501",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Nidhish Kumar.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Sachidanand Sinha",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "39608",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Sachidanand Sinha.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Nivedita Satyanarayan  Yadav",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "22-004211",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Nivedita Satyanarayan  Yadav.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Shilpa Singh",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "MAH20160001231KTK",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Shilpa Singh.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Durgeshwari Pandey",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC/R/23435",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Durgeshwari Pandey.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Rohit Sharma",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "80709",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Rohit Sharma.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Kshipra Tiwari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "55694",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Kshipra Tiwari.webp"
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Priyanka Kumari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "73663",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Priyanka Kumari.webp"
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Diksha Kumari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "48586",
+        "image": ""
+      },
+      {
+        "sno": "17",
+        "name": "Dr.Apurwa Raj",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "100237",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Apurwa Raj.webp"
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Sujata Rani",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "43507",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Sujata Rani.webp"
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Priyamvada Tiwari",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "57700",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Priyamvada Tiwari.webp"
+      },
+      {
+        "sno": "20",
+        "name": "Dr.Shubhank Deshmukh",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "CGMC10578/2020",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Shubhank Deshmukh.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Supriya Jangra",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "MCI/14-53181",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Supriya Jangra.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Adwitiya ambastha",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC/R/15887",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Adwitiya ambastha.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Neetu Verma",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "66146",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Neetu Verma.webp"
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Tanvi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "83427",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pathology/Dr.Tanvi.webp"
+      }
+    ]
+  },
+  {
+    "slug": "pediatrics",
+    "title": "Pediatrics",
+    "category": "Clinical",
+    "description": "The Department of Pediatrics at Heritage IMS provides compassionate and comprehensive healthcare for children from infancy through adolescence. Our expert pediatricians offer a wide range of services, including routine check-ups, vaccinations, and treatment for acute and chronic conditions. With a focus on preventive care and early intervention, we ensure the health and development of children at every stage. Utilizing advanced diagnostic tools and evidence-based practices, our team is committed to creating a supportive and child-friendly environment, delivering personalized care to meet the unique needs of each young patient and their families.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.OP Mishra",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "27975",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.OP Mishra.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Ashok Singh",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "41478",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Ashok Singh.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Anand Pandey",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "53746",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Anand Pandey.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Sanju lata Singh",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "49164",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Sanju lata Singh.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Prachi Gupta",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "DMC/R/1639",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Prachi Gupta.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Priyanka Dua",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "18-28502",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Priyanka Dua.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Deepak Kumar Jaiswal",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "58695",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Deepak Kumar Jaiswal.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Salil Srivastava",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "Up-20846",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Salil Srivastava.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Madanjeet Kumar",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "42843",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Madanjeet Kumar.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Prabhat Kumar",
+        "qualification": "DNB",
+        "designation": "Assistant Professor",
+        "registrationNo": "82183",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Prabhat Kumar.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Ravi Prakash Pandey",
+        "qualification": "DCH",
+        "designation": "Assistant Professor",
+        "registrationNo": "64233",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Ravi Prakash Pandey.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Niranjan Nagaraj",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "95043",
+        "image": ""
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Rahul Patel",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "82910",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Rahul Patel.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Punam Kumari",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "35578",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Punam Kumari.webp"
+      },
+      {
+        "sno": "15",
+        "name": "Dr.Pravesh Kumar Yadav",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "72757",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Pravesh Kumar Yadav.webp"
+      },
+      {
+        "sno": "16",
+        "name": "Dr.Nishant Gupta",
+        "qualification": "DNB",
+        "designation": "SR",
+        "registrationNo": "104447",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Nishant Gupta.webp"
+      },
+      {
+        "sno": "17",
+        "name": "Dr.Anup Kumar Chaudhary",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "74243",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Anup Kumar Chaudhary.webp"
+      },
+      {
+        "sno": "18",
+        "name": "Dr.Rishi Jaiswal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "68876",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Rishi Jaiswal.webp"
+      },
+      {
+        "sno": "19",
+        "name": "Dr.Alok Ranjan",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "47305",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Alok Ranjan.webp"
+      },
+      {
+        "sno": "20",
+        "name": "Dr.MD.Shoheb Aahtif",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "100056",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.MD.Shoheb Aahtif.webp"
+      },
+      {
+        "sno": "21",
+        "name": "Dr.Rishab Jaiswal",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "86742",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Rishab Jaiswal.webp"
+      },
+      {
+        "sno": "22",
+        "name": "Dr.Balduri Srikant",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "64690",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Balduri Srikant.webp"
+      },
+      {
+        "sno": "23",
+        "name": "Dr.Swati Ahlawat",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "56335",
+        "image": ""
+      },
+      {
+        "sno": "24",
+        "name": "Dr.Rahul Anand",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "MP-29135",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Rahul Anand.webp"
+      },
+      {
+        "sno": "25",
+        "name": "Dr.Ashok Kumar Yadav",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "84483",
+        "image": "/Images/DEPARTMENTS/Clinical/Pediatrics/Dr.Ashok Kumar Yadav.webp"
+      }
+    ]
+  },
+  {
+    "slug": "physiology",
+    "title": "Physiology",
+    "category": "Non Clinical",
+    "description": "The Department of Physiology at Heritage IMS is dedicated to the study of the functions and mechanisms of the human body, providing a deep understanding of how bodily systems operate and interact. Our comprehensive curriculum, taught by experienced faculty, combines theoretical knowledge with hands-on laboratory experience, enabling students to explore vital physiological processes from cellular to systemic levels. Through advanced research and innovative teaching methods, we prepare students for careers in medicine, biomedical research, and healthcare, aiming to translate physiological insights into improved health and therapeutic strategies.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Prashanth P",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "62480",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Physiology/Dr.Prashanth P.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Sonu Ajmani",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "MP-5436",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Physiology/Dr.Sonu Ajmani.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Vishal Yadav",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "97352",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Physiology/Dr.Vishal Yadav.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Aditya Kumar",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "93522",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Physiology/Dr.Aditya Kumar.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Deepanjali Pandey",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "84346",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Physiology/Dr.Deepanjali Pandey.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Pankaj Kumar Prajapati",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "98153",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Physiology/Dr.Pankaj Kumar Prajapati.webp"
+      }
+    ]
+  },
+  {
+    "slug": "microbiology-2",
+    "title": "Microbiology",
+    "category": "Non Clinical",
+    "description": "The Department of Microbiology at Heritage IMS focuses on the study of microorganisms and their impact on human health, offering a comprehensive curriculum that blends theoretical knowledge with practical laboratory skills. Our experienced faculty and advanced facilities enable students to explore the roles of bacteria, viruses, fungi, and parasites in disease, as well as their applications in biotechnology and medicine. Through rigorous research and innovative teaching methods, we prepare students for careers in clinical microbiology, infectious disease research, and public health, aiming to advance the understanding and control of microbial threats to improve global health outcomes.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Kunal K Lahari",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "086380",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Kunal K Lahari.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Aseem Kr.Singh",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "096805",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Aseem Kr.Singh.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Shalini Singh",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "DMC-51155",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Shalini Singh.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Vinay Kumar Gupta",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "2762/2010",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Vinay Kumar Gupta.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Mr.Mukesh singh",
+        "qualification": "M.Sc",
+        "designation": "Assistant Professor",
+        "registrationNo": "NIL",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Mr.Mukesh singh.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Ms.Mahak Jain",
+        "qualification": "M.Sc",
+        "designation": "Assistant Professor",
+        "registrationNo": "NIL",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Ms.Mahak Jain.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Chhote Lal",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "83391",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Chhote Lal.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Ashish Kumar",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "98152",
+        "image": ""
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Pradumna Pandey",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "91335",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Pradumna Pandey.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Samarth",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "84001",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Microbiology/Dr.Samarth.webp"
+      }
+    ]
+  },
+  {
+    "slug": "pharmacology-2",
+    "title": "Pharmacology",
+    "category": "Non Clinical",
+    "description": "The Department of Pharmacology at Heritage IMS is dedicated to the study of drug action on biological systems, encompassing the discovery, development, and regulation of pharmaceuticals. Our state-of-the-art laboratories and experienced faculty provide a robust education in the principles of pharmacodynamics, pharmacokinetics, and toxicology, preparing students for careers in medical research, clinical trials, and the pharmaceutical industry. By integrating advanced research methodologies with clinical applications, we strive to develop safer and more effective therapeutic agents, contributing to the advancement of personalized medicine and improved patient care outcomes",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Sandeep Ku.Gupta",
+        "qualification": "MD",
+        "designation": "Professor",
+        "registrationNo": "34146",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Sandeep Ku.Gupta.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Ravi Sharma",
+        "qualification": "PhD",
+        "designation": "Associate Professor",
+        "registrationNo": "950118521",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Ravi Sharma.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Gira Sulabh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "91432",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Gira Sulabh.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Sweta",
+        "qualification": "PhD",
+        "designation": "Assistant Professor",
+        "registrationNo": "950114520",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Sweta.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Mamta Singh",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "20396",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Mamta Singh.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Himanshu Verma",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "76782",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Himanshu Verma.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Varun Nagvanshi",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "88996",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Varun Nagvanshi.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Ajay Kumar Varma",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "90943",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Ajay Kumar Varma.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Divya Mishra",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "90501",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Divya Mishra.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Ashutosh Kumar Singh",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "92486",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Ashutosh Kumar Singh.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Mayank Kumar Singh",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "90486",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Mayank Kumar Singh.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Romit Bhola",
+        "qualification": "MBBS",
+        "designation": "Tutor",
+        "registrationNo": "72697",
+        "image": "/Images/DEPARTMENTS/Non Clinical/Pharmacology/Dr.Romit Bhola.webp"
+      }
+    ]
+  },
+  {
+    "slug": "psychiatry",
+    "title": "Psychiatry",
+    "category": "Clinical",
+    "description": "The Department of Psychiatry at Heritage IMS offers specialized care for a range of mental health conditions, including mood disorders, anxiety, psychotic disorders, and behavioral issues. Our experienced psychiatrists provide comprehensive assessments, therapeutic interventions, and medication management tailored to each patient’s unique needs. Emphasizing a holistic approach, we integrate psychotherapy, pharmacotherapy, and supportive services to promote mental well-being and enhance quality of life. With a commitment to compassionate, evidence-based care, we aim to support patients in their journey towards mental health recovery and overall wellness.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Mohit Saini",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "",
+        "image": "/Images/DEPARTMENTS/Clinical/Psychiatry/Dr.Mohit Saini.webp"
+      },
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Shuchi Pande",
+        "qualification": "MD",
+        "designation": "Assistant Professor",
+        "registrationNo": "72836",
+        "image": "/Images/DEPARTMENTS/Clinical/Psychiatry/Dr.Shuchi Pande.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Upasana Rai",
+        "qualification": "MD",
+        "designation": "SR",
+        "registrationNo": "86094",
+        "image": "/Images/DEPARTMENTS/Clinical/Psychiatry/Dr.Upasana Rai.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ophthalmology",
+    "title": "Ophthalmology",
+    "category": "Clinical",
+    "description": "The Department of Ophthalmology at Heritage IMS specializes in the diagnosis, treatment, and management of a wide range of eye conditions and diseases. Our skilled ophthalmologists use advanced diagnostic tools and state-of-the-art surgical techniques to provide comprehensive care for conditions such as cataracts, glaucoma, macular degeneration, and retinal disorders. We offer a full spectrum of services, from routine eye exams to complex surgical interventions, with a focus on enhancing vision and improving quality of life. Through our commitment to innovation and patient-centered care, we strive to deliver the highest standards of ophthalmic health and treatment.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Garima Rai",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "DMC-61840",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Garima Rai.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Om Prakash Maurya",
+        "qualification": "MS",
+        "designation": "Professor",
+        "registrationNo": "27682",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Om Prakash Maurya.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Sweta Agrawal",
+        "qualification": "MD",
+        "designation": "Associate Professor",
+        "registrationNo": "MP-13457",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Sweta Agrawal.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Gunjan Rana",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "DMC/R/08762",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Gunjan Rana.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Vipin Kumar Singh",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "59115",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Vipin Kumar Singh.webp"
+      },
+      {
+        "sno": "6",
+        "name": "Dr.Shraddha Pandey",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "94622",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Shraddha Pandey.webp"
+      },
+      {
+        "sno": "7",
+        "name": "Dr.Sweta Abhishek Pandey",
+        "qualification": "MS",
+        "designation": "Assistant Professor",
+        "registrationNo": "12-43135",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Sweta Abhishek Pandey.webp"
+      },
+      {
+        "sno": "8",
+        "name": "Dr.Swapnil Singh",
+        "qualification": "MS",
+        "designation": "SR",
+        "registrationNo": "UPMCI-14918",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Swapnil Singh.webp"
+      },
+      {
+        "sno": "9",
+        "name": "Dr.Bibhash Kumar Annu",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "48287",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Bibhash Kumar Annu.webp"
+      },
+      {
+        "sno": "10",
+        "name": "Dr.Harsh Kumar",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "5630",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Harsh Kumar.webp"
+      },
+      {
+        "sno": "11",
+        "name": "Dr.Sharleen Khan",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2021/02/0845",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Sharleen Khan.webp"
+      },
+      {
+        "sno": "12",
+        "name": "Dr.Neha Biswas",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "38991",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Neha Biswas.webp"
+      },
+      {
+        "sno": "13",
+        "name": "Dr.Shikha Batra",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "2022/09/7891",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Shikha Batra.webp"
+      },
+      {
+        "sno": "14",
+        "name": "Dr.Mahima Shandilya",
+        "qualification": "MBBS",
+        "designation": "PGJR",
+        "registrationNo": "DMC/R/33290",
+        "image": "/Images/DEPARTMENTS/Clinical/Ophthalmology/Dr.Mahima Shandilya.webp"
+      }
+    ]
+  },
+  {
+    "slug": "dental",
+    "title": "Dentistry",
+    "category": "Clinical",
+    "description": "The Department of Dental at Heritage IMS offers a full spectrum of oral health services, including preventive care, restorative treatments, and advanced dental procedures. Our skilled dentists and dental specialists provide comprehensive care ranging from routine cleanings and fillings to complex surgical interventions and cosmetic enhancements. Utilizing the latest technology and techniques, we ensure high-quality, patient-centered care aimed at improving oral health, function, and aesthetics. Our focus on prevention, personalized treatment plans, and ongoing patient education helps maintain optimal dental health and overall well-being.",
+    "faculty": [
+      {
+        "sno": "S.No",
+        "name": "Name",
+        "qualification": "Qualification",
+        "designation": "Designation",
+        "registrationNo": "Registration no.",
+        "image": ""
+      },
+      {
+        "sno": "1",
+        "name": "Dr.Vishal Singh",
+        "qualification": "MDS",
+        "designation": "Professor",
+        "registrationNo": "UPDCI-556",
+        "image": "/Images/DEPARTMENTS/Clinical/Dentistry/Dr.Vishal Singh.webp"
+      },
+      {
+        "sno": "2",
+        "name": "Dr.Ravi Kumar",
+        "qualification": "MDS",
+        "designation": "Associate Professor",
+        "registrationNo": "3755/A",
+        "image": "/Images/DEPARTMENTS/Clinical/Dentistry/Dr.Ravi Kumar.webp"
+      },
+      {
+        "sno": "3",
+        "name": "Dr.Abhishek Das",
+        "qualification": "MDS",
+        "designation": "Assistant Professor",
+        "registrationNo": "A-30935",
+        "image": "/Images/DEPARTMENTS/Clinical/Dentistry/Dr.Abhishek Das.webp"
+      },
+      {
+        "sno": "4",
+        "name": "Dr.Mohammed Zahid Khan",
+        "qualification": "MBBS",
+        "designation": "JR",
+        "registrationNo": "A-14905",
+        "image": "/Images/DEPARTMENTS/Clinical/Dentistry/Dr.Mohammed Zahid Khan.webp"
+      },
+      {
+        "sno": "5",
+        "name": "Dr.Aakrity Mohan Rastogi",
+        "qualification": "MBBS",
+        "designation": "JR",
+        "registrationNo": "18126-A",
+        "image": "/Images/DEPARTMENTS/Clinical/Dentistry/Dr.Aakrity Mohan Rastogi.webp"
+      }
+    ]
+  }
+]

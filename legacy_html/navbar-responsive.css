@@ -1,0 +1,390 @@
+/* ══════════════════════════════════════════════════════════════ */
+/* NAVBAR RESPONSIVE STYLES - TAB & MOBILE VIEWS */
+/* ══════════════════════════════════════════════════════════════ */
+
+/* ══════════════════ RESPONSIVE BREAKPOINTS ══════════════════ */
+@media (max-width: 991px) {
+  /* Hide desktop menu */
+  .hims-nav-links { 
+    display: none !important; 
+  }
+  
+  /* Show hamburger and mobile nav */
+  .hims-mobile-nav, .hims-toggler { 
+    display: flex !important; 
+  }
+  
+  /* Navbar positioning */
+  .hims-nav {
+    top: 42px !important;
+  }
+  
+  /* Mobile nav positioning */
+  .hims-mobile-nav {
+    top: 112px !important;
+    display: none !important;
+  }
+  
+  .hims-mobile-nav.open {
+    display: block !important;
+  }
+}
+
+/* ══════════════════ TABLET VIEW (768px - 991px) ══════════════════ */
+@media (max-width: 991px) and (min-width: 768px) {
+  /* Tablet specific styles */
+  .hims-nav-inner {
+    padding: 0 1rem !important;
+    height: 70px !important;
+  }
+  
+  .hims-logo {
+    font-size: 1.1rem !important;
+  }
+  
+  .hims-logo img {
+    height: 40px !important;
+  }
+  
+  .hims-toggler {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 1.1rem !important;
+  }
+  
+  .mob-link {
+    padding: 10px 18px !important;
+    font-size: 0.9rem !important;
+  }
+}
+
+/* ══════════════════ MOBILE VIEW (≤767px) ══════════════════ */
+@media (max-width: 767px) {
+  /* Mobile navbar adjustments */
+  .hims-nav {
+    top: 42px !important;
+  }
+  
+  .hims-mobile-nav {
+    top: 112px !important;
+  }
+  
+  .hims-nav-inner {
+    padding: 0 1rem !important;
+    height: 70px !important;
+  }
+  
+  .hims-logo {
+    font-size: 1rem !important;
+  }
+  
+  .hims-logo img {
+    height: 45px !important;
+  }
+  
+  .hims-toggler {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 1.2rem !important;
+  }
+  
+  .mob-link {
+    padding: 12px 20px !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+/* ══════════════════ SMALL MOBILE (≤576px) ══════════════════ */
+@media (max-width: 576px) {
+  .hims-nav {
+    top: 42px !important;
+  }
+  
+  .hims-mobile-nav {
+    top: 112px !important;
+  }
+  
+  .hims-nav-inner {
+    padding: 0 0.8rem !important;
+  }
+  
+  .mob-link {
+    padding: 10px 16px !important;
+    font-size: 0.8rem !important;
+  }
+  
+  .mob-sub-header {
+    padding: 8px 12px !important;
+    font-size: 0.65rem !important;
+  }
+  
+  .mob-panel a {
+    padding: 8px 12px !important;
+    font-size: 0.75rem !important;
+  }
+}
+
+/* ══════════════════ HAMBURGER STYLES ══════════════════ */
+.hims-toggler {
+  display: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  background: rgba(201,146,42,0.1) !important;
+  border: 1px solid rgba(201,146,42,0.3) !important;
+  color: var(--gold-light) !important;
+  font-size: 1.2rem !important;
+  cursor: pointer !important;
+  border-radius: 6px !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  z-index: 1060 !important;
+}
+
+.hims-toggler:hover {
+  background: rgba(201,146,42,0.25) !important;
+  color: #fff !important;
+  transform: scale(1.05) !important;
+}
+
+.hims-toggler span {
+  display: block !important;
+  width: 22px !important;
+  height: 3px !important;
+  background: currentColor !important;
+  margin: 4px 0 !important;
+  transition: all 0.3s ease !important;
+  border-radius: 2px !important;
+}
+
+.hims-toggler span:nth-child(1) {
+  transform-origin: top left !important;
+}
+
+.hims-toggler span:nth-child(3) {
+  transform-origin: bottom left !important;
+}
+
+/* Mobile nav open state */
+.mobile-nav-open .hims-toggler span:nth-child(1) {
+  transform: rotate(45deg) translate(2px, -2px) !important;
+}
+
+.mobile-nav-open .hims-toggler span:nth-child(2) {
+  opacity: 0 !important;
+}
+
+.mobile-nav-open .hims-toggler span:nth-child(3) {
+  transform: rotate(-45deg) translate(2px, 2px) !important;
+}
+
+/* ══════════════════ MOBILE NAVIGATION STYLES ══════════════════ */
+.hims-mobile-nav {
+  display: none !important;
+  background: linear-gradient(180deg, var(--maroon-dark) 0%, rgba(62,13,25,0.95) 100%) !important;
+  border-top: 3px solid var(--gold) !important;
+  max-height: 70vh !important;
+  overflow-y: auto !important;
+  width: 100% !important;
+  position: fixed !important;
+  top: 112px !important;
+  left: 0 !important;
+  z-index: 1030 !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.hims-mobile-nav.open {
+  display: block !important;
+  animation: slideDown 0.3s ease-out !important;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile top-level item */
+.mob-item {
+  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+  background: rgba(0,0,0,0.1) !important;
+  transition: background 0.2s ease !important;
+}
+
+.mob-item:hover {
+  background: rgba(201,146,42,0.1) !important;
+}
+
+.mob-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 14px 20px !important;
+  color: rgba(255,255,255,0.95) !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  background: none !important;
+  border: none !important;
+  text-align: left !important;
+  transition: all 0.2s ease !important;
+}
+
+.mob-link:hover {
+  color: var(--gold-light) !important;
+  padding-left: 25px !important;
+  background: rgba(201,146,42,0.15) !important;
+}
+
+.mob-link i.mob-caret {
+  font-size: 0.7rem !important;
+  transition: transform 0.3s ease !important;
+  margin-left: 8px !important;
+  color: var(--gold-light) !important;
+}
+
+.mob-link.open i.mob-caret {
+  transform: rotate(180deg) !important;
+}
+
+/* Mobile dropdown panel */
+.mob-panel {
+  display: none !important;
+  background: rgba(0,0,0,0.3) !important;
+  border-left: 4px solid var(--gold) !important;
+  margin-left: 20px !important;
+  animation: fadeIn 0.3s ease-out !important;
+}
+
+.mob-panel.open {
+  display: block !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mob-panel a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 12px 20px !important;
+  color: rgba(255,255,255,0.9) !important;
+  font-size: 0.8rem !important;
+  border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+
+.mob-panel a:hover {
+  color: var(--gold-light) !important;
+  padding-left: 25px !important;
+  background: rgba(201,146,42,0.1) !important;
+}
+
+.mob-panel a i {
+  color: var(--gold-light) !important;
+  width: 18px !important;
+  font-size: 0.8rem !important;
+  flex-shrink: 0 !important;
+  text-align: center !important;
+}
+
+/* Mobile sub-section header */
+.mob-sub-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 12px 20px !important;
+  color: var(--gold) !important;
+  font-size: 0.75rem !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.09em !important;
+  cursor: pointer !important;
+  background: rgba(201,146,42,0.1) !important;
+  border: none !important;
+  width: 100% !important;
+  text-align: left !important;
+  border-bottom: 1px solid rgba(201,146,42,0.3) !important;
+  transition: all 0.2s ease !important;
+}
+
+.mob-sub-header:hover {
+  background: rgba(201,146,42,0.2) !important;
+}
+
+.mob-sub-header i.sub-caret {
+  font-size: 0.7rem !important;
+  transition: transform 0.3s ease !important;
+  color: var(--gold-light) !important;
+}
+
+.mob-sub-header.open i.sub-caret {
+  transform: rotate(180deg) !important;
+}
+
+.mob-sub-panel {
+  display: block !important;
+}
+
+.mob-sub-panel.collapsed {
+  display: none !important;
+}
+
+/* ══════════════════ NAVIGATION JAVASCRIPT ══════════════════ */
+/*
+NAVIGATION JAVASCRIPT FUNCTIONS:
+
+1. Mobile Navigation Toggle:
+   - Toggles mobile navigation panel
+   - Adds/removes 'mobile-nav-open' class to body
+   - Transforms hamburger menu
+
+2. Mobile Sub-Panel Toggles:
+   - mobToggle(element, panelId)
+   - Toggles sub-panel visibility
+   - Manages accordion behavior
+
+3. Mobile Sub-Section Toggles:
+   - mobSubToggle(header, panelId)
+   - Toggles sub-section panels
+   - Handles nested accordions
+
+4. Desktop Mega Menu Accordion:
+   - Handles mega menu accordion functionality
+   - Toggles content visibility
+
+5. Scroll to Top Function:
+   - scrollToTop()
+   - Smooth scroll to top of page
+
+6. Back to Top Button Visibility:
+   - Shows/hides button based on scroll position
+   - Uses 300px threshold
+
+USAGE:
+- All functions are called from HTML onclick attributes
+- No external JavaScript files needed
+- Responsive behavior handled by CSS media queries
+*/
+
+/* ══════════════════ END RESPONSIVE NAVBAR STYLES ══════════════════ */

@@ -1,0 +1,233 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(109, 16, 32, 0.85), rgba(109, 16, 32, 0.85)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 20px 40px rgba(109, 16, 32, 0.15);
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.contentOverlap {
+  margin-top: -80px;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 80px;
+}
+
+.sectionHeader {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.subHeader {
+  color: #6d1020;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sectionHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #222;
+}
+
+.sectionHeader h2 span {
+  color: #6d1020;
+}
+
+.gallerySection {
+  background: #fff;
+  border-radius: 40px;
+  padding: 50px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.02);
+  margin-bottom: 50px;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+  border: 1px solid rgba(109, 16, 32, 0.05);
+  aspect-ratio: 4/3;
+  background: #fff;
+}
+
+.imageWrapper img {
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.imageWrapper:hover img {
+  transform: scale(1.08);
+}
+
+.contentSection {
+  background: #fff;
+  border-radius: 40px;
+  padding: 60px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.02);
+}
+
+.contentTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contentSubtitle {
+  font-size: 1.2rem;
+  color: #6d1020;
+  font-weight: 700;
+  margin-bottom: 30px;
+  display: inline-block;
+  border-bottom: 2px solid #ffd27a;
+  padding-bottom: 5px;
+}
+
+.listWrapper {
+  background: #fdfaf7;
+  padding: 40px;
+  border-radius: 20px;
+  border-left: 5px solid #6d1020;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
+
+.listItem::before {
+  content: '•';
+  color: #6d1020;
+  font-weight: bold;
+  font-size: 1.8rem;
+  position: absolute;
+  left: 0;
+  top: -8px;
+}
+
+.listItem strong {
+  color: #222;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+  .sectionHeader h2 {
+    font-size: 2.2rem;
+  }
+  .gallerySection {
+    padding: 30px;
+  }
+  .contentSection {
+    padding: 40px;
+  }
+  .galleryGrid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    padding: 100px 0;
+  }
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .heroContent p {
+    font-size: 1.1rem;
+  }
+  .contentOverlap {
+    margin-top: -50px;
+  }
+  .gallerySection {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .contentSection {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+  .listWrapper {
+    padding: 20px;
+  }
+  .contentTitle {
+    font-size: 1.5rem;
+  }
+}

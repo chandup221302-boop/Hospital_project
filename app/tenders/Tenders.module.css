@@ -1,0 +1,454 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+  background-image: radial-gradient(#6d102008 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: linear-gradient(135deg, #6d1020, #4d0b17);
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(109, 16, 32, 0.15);
+}
+
+.heroSection::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 210, 122, 0.1) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.heroBadge {
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.heroContent h1 span { color: #ffd27a; }
+
+.heroContent p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* CONTENT SECTION */
+.contentSection {
+  padding: 100px 0;
+}
+
+.sectionAlt {
+  background: #fff;
+  border-top: 1px solid rgba(109, 16, 32, 0.05);
+}
+
+.sectionHeadingBox {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sectionTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.sectionTitle span {
+  color: #6d1020;
+}
+
+/* CONTACT INFO BOX */
+.contactInfoBox {
+  background: #6d1020;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0 15px 40px rgba(109, 16, 32, 0.2);
+}
+
+.contactDate {
+  display: flex;
+  
+  gap: 15px;
+  font-size: 1.1rem;
+}
+
+.contactDate svg {
+  font-size: 1.8rem;
+  color: #ffd27a;
+}
+
+.contactDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.contactItem {
+  display: flex;
+  
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.contactItem svg {
+  color: #ffd27a;
+}
+
+/* MOBILE CHIPS */
+.mobileSelectorWrapper {
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 30px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+  border: 1px solid rgba(109, 16, 32, 0.05);
+}
+
+.mobileSelectorHeader {
+  display: flex;
+  
+  gap: 10px;
+  color: #6d1020;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mobileChipsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.mobileChip {
+  background: #fdfaf7;
+  border: 1px solid rgba(109, 16, 32, 0.1);
+  padding: 12px 15px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mobileChip.active {
+  background: #6d1020;
+  color: #fff;
+  border-color: #6d1020;
+  box-shadow: 0 8px 15px rgba(109, 16, 32, 0.2);
+}
+
+/* SIDEBAR STICKY (DESKTOP) */
+.sidebarSticky {
+  position: sticky;
+  top: 140px;
+}
+
+.sidebarHeader {
+  margin-bottom: 30px;
+}
+
+.sidebarHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #222;
+}
+
+.sidebarHeader h2 span { color: #6d1020; }
+
+.sidebarList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tenderCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(109, 16, 32, 0.05);
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+}
+
+.tenderCard:hover {
+  transform: translateX(8px);
+  border-color: rgba(109, 16, 32, 0.2);
+  box-shadow: 0 10px 25px rgba(109, 16, 32, 0.08);
+}
+
+.tenderCard.active {
+  border-color: #6d1020;
+  background: #fff9f9;
+  box-shadow: 0 15px 35px rgba(109, 16, 32, 0.12);
+}
+
+.cardIcon {
+  width: 50px;
+  height: 50px;
+  background: #fdfaf7;
+  color: #6d1020;
+  border-radius: 14px;
+  display: flex;
+  
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.tenderCard.active .cardIcon,
+.tenderCard:hover .cardIcon {
+  background: #6d1020;
+  color: #ffd27a;
+}
+
+.cardInfo h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.cardMeta {
+  display: flex;
+  gap: 10px;
+}
+
+.cardMeta span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  background: rgba(109, 16, 32, 0.05);
+  color: #6d1020;
+  border-radius: 50px;
+}
+
+/* VIEWER CONTAINER */
+.viewerContainer {
+  background: #fff;
+  border-radius: 40px;
+  padding: 40px;
+  box-shadow: 0 30px 70px rgba(0,0,0,0.05);
+  border: 1px solid rgba(109, 16, 32, 0.05);
+}
+
+.viewerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 20px;
+}
+
+.titleBadge {
+  color: #6d1020;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.viewerHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #222;
+  margin: 0 0 10px;
+}
+
+.viewerMeta {
+  display: flex;
+  gap: 15px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.viewerActions {
+  display: flex;
+  gap: 12px;
+}
+
+.actionBtn {
+  display: flex;
+  
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.viewBtn { background: #6d1020; color: #fff; }
+.viewBtn:hover { background: #4d0b17; transform: translateY(-2px); }
+
+.downloadBtn { background: #ffd27a; color: #6d1020; }
+.downloadBtn:hover { background: #ffc24d; transform: translateY(-2px); }
+
+/* DYNAMIC CAPTIONS */
+.dynamicCaptions {
+  text-align: center;
+  margin: 40px 0;
+  padding: 30px;
+  background: #fdfaf7;
+  border-radius: 30px;
+}
+
+.mainCaption {
+  color: #6d1020;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.subCaption {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.accentLine {
+  width: 60px;
+  height: 4px;
+  background: #6d1020;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+/* PDF WRAPPER */
+.pdfWrapper {
+  width: 100%;
+  height: 800px;
+  background: #f5f5f5;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #eee;
+}
+
+.pdfLoader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  font-weight: 700;
+  color: #999;
+  text-align: center;
+  width: 80%;
+}
+
+.pdfIframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+
+.viewerFooter {
+  display: flex;
+  
+  gap: 10px;
+  margin-top: 20px;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+  .viewerHeader h2 { font-size: 1.5rem; }
+  .mainCaption { font-size: 2.2rem; }
+  .pdfWrapper { height: 700px; }
+}
+
+@media (max-width: 991px) {
+  .contentSection { padding: 100px 0; }
+  .contactDetails { justify-content: flex-start; margin-top: 20px; }
+  .viewerContainer { padding: 25px; border-radius: 30px; }
+  .viewerHeader { flex-direction: column; }
+  .viewerActions { width: 100%; }
+  .actionBtn { flex: 1; justify-content: center; }
+  .pdfWrapper { height: 600px; }
+}
+
+@media (max-width: 768px) {
+  .heroContent h1 { font-size: 2.5rem; }
+  .sectionTitle { font-size: 2.2rem; }
+  .contactInfoBox { padding: 25px; }
+  .contactDetails { gap: 15px; }
+  .mainCaption { font-size: 1.8rem; }
+  .subCaption { font-size: 1.3rem; }
+  .pdfWrapper { height: 500px; }
+}
+
+@media (max-width: 480px) {
+  .mobileChipsGrid { grid-template-columns: 1fr; }
+  .heroContent h1 { font-size: 2rem; }
+  .viewerContainer { padding: 15px; border-radius: 20px; }
+  .pdfWrapper { height: 400px; }
+}

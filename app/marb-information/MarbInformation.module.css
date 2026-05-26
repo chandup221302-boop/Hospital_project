@@ -1,0 +1,229 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: linear-gradient(rgba(109, 16, 32, 0.9), rgba(109, 16, 32, 0.9)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0 15px 30px rgba(109, 16, 32, 0.1);
+}
+
+.heroBadge {
+  display: inline-flex;
+  
+  gap: 8px;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.15rem;
+  max-width: 750px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* VIEWER SECTION */
+.viewerSection {
+  padding: 80px 0 120px;
+}
+
+/* PREMIUM DOCUMENT CARDS */
+.docCard {
+  background: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+  border: 1px solid rgba(109, 16, 32, 0.05);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.docCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(109, 16, 32, 0.12);
+  border-color: rgba(109, 16, 32, 0.15);
+}
+
+.docGraphic {
+  height: 220px;
+  background: linear-gradient(135deg, #fdfaf7 0%, #f5ece2 100%);
+  display: flex;
+  
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.docDecoration {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(109, 16, 32, 0.05) 0%, rgba(109, 16, 32, 0) 70%);
+  border-radius: 50%;
+  top: -50px;
+  right: -50px;
+}
+
+.pdfIconLarge {
+  font-size: 5rem;
+  color: #6d1020;
+  opacity: 0.8;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.docCard:hover .pdfIconLarge {
+  transform: scale(1.1);
+  color: #d12542;
+}
+
+.docContent {
+  padding: 40px 35px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.docCategory {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6d1020;
+  background: rgba(109, 16, 32, 0.08);
+  padding: 5px 15px;
+  border-radius: 50px;
+  align-self: flex-start;
+  margin-bottom: 15px;
+}
+
+.docContent h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.docContent p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  flex-grow: 1;
+}
+
+.docActions {
+  display: flex;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.actionBtn {
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 14px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.02em;
+}
+
+.viewBtn {
+  background: rgba(109, 16, 32, 0.05);
+  color: #6d1020;
+  border: 1px solid rgba(109, 16, 32, 0.1);
+}
+
+.viewBtn:hover {
+  background: rgba(109, 16, 32, 0.1);
+  color: #540c18;
+  border-color: rgba(109, 16, 32, 0.2);
+}
+
+.downloadBtn {
+  background: #6d1020;
+  color: #ffd27a;
+  box-shadow: 0 8px 20px rgba(109, 16, 32, 0.2);
+}
+
+.downloadBtn:hover {
+  background: #540c18;
+  color: #fff;
+  box-shadow: 0 12px 25px rgba(109, 16, 32, 0.3);
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    padding: 100px 0;
+  }
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .viewerSection {
+    padding: 50px 0;
+  }
+  .docGraphic {
+    height: 180px;
+  }
+  .docContent {
+    padding: 30px 25px;
+  }
+  .docActions {
+    flex-direction: column;
+  }
+}

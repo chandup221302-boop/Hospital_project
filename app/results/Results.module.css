@@ -1,0 +1,218 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: linear-gradient(rgba(109, 16, 32, 0.9), rgba(109, 16, 32, 0.9)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0 15px 30px rgba(109, 16, 32, 0.1);
+}
+
+.heroBadge {
+  display: inline-flex;
+  
+  gap: 8px;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* RESULTS SECTION */
+.resultsSection {
+  padding: 60px 0 100px;
+}
+
+/* MAIN ACTION BUTTON */
+.mainActionWrapper {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.mainActionBtn {
+  display: inline-block;
+  background: #6d1020;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(109, 16, 32, 0.25);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.mainActionBtn:hover {
+  background: #fff;
+  color: #6d1020;
+  border-color: #6d1020;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(109, 16, 32, 0.15);
+}
+
+/* VIEWER CARDS */
+.viewerCard {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+  border: 1px solid rgba(109, 16, 32, 0.05);
+  display: flex;
+  flex-direction: column;
+  height: 700px; /* Reduced from 800px to fix bottom space */
+  transition: all 0.3s ease;
+}
+
+.viewerCard:hover {
+  box-shadow: 0 20px 45px rgba(109, 16, 32, 0.1);
+  transform: translateY(-5px);
+}
+
+.cardHeader {
+  background: #fff;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.cardHeader h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actionBtn {
+  display: inline-flex;
+  
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.viewBtn {
+  background: rgba(109, 16, 32, 0.08);
+  color: #6d1020;
+}
+
+.viewBtn:hover {
+  background: rgba(109, 16, 32, 0.15);
+  color: #540c18;
+}
+
+.downloadBtn {
+  background: #6d1020;
+  color: #ffd27a;
+  box-shadow: 0 5px 15px rgba(109, 16, 32, 0.2);
+}
+
+.downloadBtn:hover {
+  background: #540c18;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(109, 16, 32, 0.3);
+  transform: translateY(-2px);
+}
+
+.iframeWrapper {
+  flex-grow: 1;
+  background: #e9ecef;
+  position: relative;
+  overflow: hidden;
+}
+
+.pdfIframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 2.8rem;
+  }
+  .viewerCard {
+    height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    padding: 100px 0;
+  }
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .resultsSection {
+    padding: 40px 0;
+  }
+  .mainActionBtn {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+  .viewerCard {
+    height: 500px;
+  }
+  .cardHeader {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+}

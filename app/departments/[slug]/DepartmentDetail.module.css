@@ -1,0 +1,270 @@
+.mainContainer {
+  background-color: #fcfaf8;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  background: linear-gradient(rgba(109, 16, 32, 0.95), rgba(109, 16, 32, 0.95)), url('/Images/doduls%20image/red%20doduls.png');
+  background-size: auto, 350px;
+  background-repeat: repeat;
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroBadge {
+  display: inline-block;
+  padding: 5px 15px;
+  background: rgba(201, 146, 42, 0.15);
+  color: var(--gold-light);
+  border: 1px solid rgba(201, 146, 42, 0.3);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.heroSection h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.heroSection h1 span {
+  color: var(--gold);
+}
+
+/* DESCRIPTION SECTION */
+.descSection {
+  padding: 60px 0 40px;
+}
+
+.descCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+  border-top: 4px solid var(--gold);
+}
+
+.descTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: var(--maroon);
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.descText {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: justify;
+}
+
+.descText p {
+  margin-bottom: 15px;
+}
+
+.descText p:last-child {
+  margin-bottom: 0;
+}
+
+/* FACULTY SECTION */
+.facultySection {
+  padding: 40px 0 80px;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subHeader {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--gold);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 5px;
+}
+
+.sectionHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: var(--maroon);
+  font-weight: 700;
+  margin: 0;
+}
+
+.sectionHeader h2 span {
+  color: var(--gold-light);
+}
+
+/* TABLE */
+.tableWrapper {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.facultyTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px; /* Force scroll on small devices */
+}
+
+.facultyTable th {
+  background: rgba(123, 18, 32, 0.04);
+  color: var(--maroon);
+  font-weight: 700;
+  padding: 18px 20px;
+  text-align: left;
+  border-bottom: 2px solid rgba(201, 146, 42, 0.2);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.facultyTable td {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: #333;
+  font-size: 0.95rem;
+  vertical-align: middle;
+}
+
+.facultyTable tr:last-child td {
+  border-bottom: none;
+}
+
+.facultyTable tr:hover td {
+  background-color: rgba(201, 146, 42, 0.02);
+}
+
+.fwBold {
+  font-weight: 600;
+  color: var(--maroon) !important;
+}
+
+.imgCell {
+  width: 100px;
+  text-align: center;
+}
+
+.imgWrapper {
+  width: 80px;
+  height: 90px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.facultyImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top; /* Usually better for portraits */
+}
+
+.placeholderImg {
+  width: 80px;
+  height: 90px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-flex;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .descCard {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection h1 {
+    font-size: 2.2rem;
+  }
+  
+  .descTitle {
+    font-size: 1.5rem;
+  }
+
+  /* Make table responsive on mobile by stacking */
+  .tableWrapper {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .facultyTable, .facultyTable tbody, .facultyTable tr, .facultyTable td {
+    display: block;
+    width: 100%;
+    min-width: unset;
+  }
+  
+  .facultyTable thead {
+    display: none;
+  }
+
+  .facultyTable tr {
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+
+  .facultyTable td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 12px 20px;
+  }
+
+  .facultyTable td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: var(--maroon);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-right: 15px;
+  }
+
+  .facultyTable td.imgCell {
+    justify-content: center;
+    padding: 20px;
+    background: rgba(123, 18, 32, 0.02);
+  }
+
+  .facultyTable td.imgCell::before {
+    display: none;
+  }
+}

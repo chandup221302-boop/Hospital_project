@@ -1,0 +1,539 @@
+/* ══════════════════════════════════════════════════════════════ */
+/* CONSOLIDATED NAVBAR STYLES (Desktop, Tablet & Mobile) */
+/* ══════════════════════════════════════════════════════════════ */
+
+.himsNav {
+  background: var(--maroon);
+  box-shadow: 0 4px 22px rgba(90, 10, 20, 0.55);
+  position: sticky;
+  top: 0; /* Sticks to the very top */
+  z-index: 1050;
+}
+
+.himsNavInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+  height: 90px; /* Increased height for desktop to accommodate larger logo */
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* LOGO */
+.himsLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.himsLogo img {
+  height: 75px; /* Increased logo size on desktop */
+  width: auto;
+  object-fit: contain;
+}
+
+/* DESKTOP MENU */
+.himsNavLinks {
+  display: flex;
+  align-items: stretch; /* Make items full height */
+  align-self: stretch; /* IMPORTANT: Force container to fill parent height */
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.himsNavLinks > li {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+/* Safety bridge to keep hover alive while moving mouse to dropdown */
+.himsNavLinks > li::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background: transparent;
+  display: none;
+  z-index: 10;
+}
+
+.himsNavLinks > li:hover::after {
+  display: block;
+}
+
+.himsNavLinks > li > a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(255, 255, 255, 0.98);
+  font-weight: 600;
+  font-size: 0.72rem;
+  padding: 0 0.7rem; /* Removed vertical padding, use height/flex instead */
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  height: 100%;
+}
+
+.himsNavLinks > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
+  height: 3px;
+  background: var(--gold);
+  border-radius: 2px 2px 0 0;
+  transform: scaleX(0);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.himsNavLinks > li:hover > a::after,
+.himsNavLinks > li.active > a::after {
+  transform: scaleX(1);
+}
+
+.himsNavLinks > li:hover > a,
+.himsNavLinks > li.active > a {
+  color: var(--gold-light);
+  text-shadow: 0 0 10px rgba(201, 146, 42, 0.3);
+}
+
+.navCaret {
+  font-size: 0.6rem;
+  transition: transform 0.3s ease;
+  opacity: 0.9;
+}
+
+.himsNavLinks > li:hover .navCaret {
+  transform: rotate(180deg);
+  color: var(--gold);
+}
+
+.himsNavLinks > li:hover {
+  z-index: 3000; /* Ensure hovered item is on top */
+}
+
+/* DROPDOWNS - PREMIUM STYLING */
+.ddSimple {
+  position: absolute;
+  top: calc(100% - 1px); /* Slight overlap to prevent gap */
+  left: 0;
+  min-width: 230px;
+  background: #ffffff;
+  border-top: 4px solid var(--gold);
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+  display: none;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 2000;
+  pointer-events: auto; /* Ensure it can receive mouse events */
+}
+
+.ddSimple.ddRight {
+  left: auto;
+  right: 0;
+}
+
+.himsNavLinks > li:hover .ddSimple {
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.ddSimple a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #2c0811;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(123, 18, 32, 0.05);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.ddSimple a:last-child {
+  border-bottom: none;
+}
+
+.ddSimple a:hover {
+  background: rgba(201, 146, 42, 0.08);
+  color: var(--maroon);
+  padding-left: 25px;
+}
+
+/* Gold Icons in Dropdown */
+.ddSimple a svg:first-child {
+  color: var(--gold);
+  font-size: 0.9rem;
+  width: 18px;
+  flex-shrink: 0;
+}
+
+/* SUB-DROPDOWNS */
+.ddSub {
+  position: relative;
+}
+
+.ddCaret {
+  color: var(--gold);
+  font-size: 0.6rem;
+  opacity: 0.6;
+  margin-left: auto; /* Push caret to the right */
+}
+
+.ddSubDropdown {
+  position: absolute;
+  top: -10px; 
+  left: calc(100% - 5px); /* Overlap to prevent hover loss */
+  background: #ffffff;
+  border-left: 1px solid rgba(201, 146, 42, 0.2);
+  border-top: 4px solid var(--gold);
+  border-radius: 0 10px 10px 0;
+  box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+  display: none;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 2001;
+  padding: 8px 0;
+  pointer-events: auto;
+}
+
+.ddSub:hover > .ddSubDropdown {
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+
+/* Sub-dropdown links specifically for circular icons */
+.ddSubDropdown a svg {
+  font-size: 0.6rem !important;
+  color: var(--gold) !important;
+}
+
+/* MEGA MENU STYLING */
+.ddMega {
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 50%;
+  transform: translateX(-50%) translateY(5px);
+  background: #ffffff;
+  border-top: 4px solid var(--gold);
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 2000;
+  pointer-events: auto;
+  min-width: 800px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.himsNavLinks > li:hover .ddMega {
+  display: block !important;
+  opacity: 1 !important;
+  transform: translateX(-50%) translateY(0) !important;
+}
+
+.himsNavLinks > li.hideMega .ddMega {
+  display: none !important;
+}
+
+.megaColumns {
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+}
+
+.megaCol {
+  flex: 1;
+}
+
+.megaTitle {
+  font-size: 1.1rem;
+  color: var(--maroon);
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(201, 146, 42, 0.3);
+  display: flex;
+  align-items: center;
+}
+
+.megaCol a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.megaCol a svg {
+  color: var(--gold);
+  font-size: 0.7rem;
+  flex-shrink: 0;
+}
+
+.megaCol a:hover {
+  background: rgba(201, 146, 42, 0.1);
+  color: var(--maroon);
+  padding-left: 20px;
+}
+
+.megaFooter {
+  background: rgba(123, 18, 32, 0.04);
+  padding: 15px 30px;
+  border-top: 1px solid rgba(123, 18, 32, 0.08);
+  display: flex;
+  justify-content: center;
+}
+
+.viewAllBtn {
+  display: inline-flex;
+  align-items: center;
+  color: var(--maroon);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.viewAllBtn:hover {
+  color: var(--gold);
+}
+
+/* HAMBURGER */
+.himsToggler {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(201, 146, 42, 0.15);
+  border: 1px solid rgba(201, 146, 42, 0.3);
+  color: var(--gold-light);
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* MOBILE NAVIGATION */
+.himsMobileNav {
+  display: block; /* Always block so we can animate smoothly */
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.35s;
+  pointer-events: none; /* Disable interaction when closed */
+
+  background: var(--maroon-dark);
+  border-top: 2px solid var(--gold);
+  max-height: calc(100vh - 132px); /* 42px topbar + 90px navbar */
+  overflow-y: auto;
+  width: 100%;
+  position: fixed;
+  top: 132px;
+  left: 0;
+  z-index: 1030;
+  box-shadow: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.himsMobileNav.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.mobItem {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.mobLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  color: rgba(255, 255, 255, 0.92);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  width: 100%;
+  background: none;
+  border: none;
+  text-decoration: none; /* Prevent underline */
+}
+
+/* Simple mobile link layout for Home & Contact Us */
+.mobSimpleLink {
+  justify-content: flex-start !important;
+  gap: 12px !important;
+  text-decoration: none;
+}
+
+.mobSimpleLink svg {
+  color: var(--gold-light);
+  font-size: 0.95rem;
+}
+
+.mobCaret {
+  font-size: 0.75rem;
+  transition: transform 0.3s;
+  color: var(--gold-light);
+}
+
+.mobLink.open .mobCaret {
+  transform: rotate(180deg);
+}
+
+.mobPanel {
+  max-height: 0; /* Animate max-height instead of display */
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(0, 0, 0, 0.25);
+  border-left: 4px solid var(--gold);
+  margin-left: 15px;
+}
+
+.mobPanel.open {
+  max-height: 2500px; /* High enough to fit all departments */
+}
+
+.mobPanel a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.mobPanel a svg {
+  color: var(--gold-light);
+  width: 16px;
+}
+
+.mobSubHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  color: var(--gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.mobSubHeader.open .subCaret {
+  transform: rotate(180deg);
+}
+
+.mobSubPanel {
+  max-height: 1500px;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 10px;
+}
+
+.mobSubPanel.collapsed {
+  max-height: 0;
+}
+
+.mobViewAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: var(--gold-light);
+  font-weight: 700;
+  text-decoration: none;
+  background: rgba(201, 146, 42, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s;
+}
+
+.mobViewAll:hover {
+  background: rgba(201, 146, 42, 0.2);
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 991px) {
+  .himsNavLinks { display: none !important; }
+  .himsToggler { display: flex !important; }
+  .himsNav { top: 0; }
+  .himsNavInner { height: 85px; } /* Increased for tablet */
+  .himsLogo img { height: 65px; } /* Increased for tablet */
+  .himsMobileNav {
+    top: 127px; /* 42 + 85 = 127px */
+    max-height: calc(100vh - 127px);
+  }
+}
+
+@media (max-width: 767px) {
+  .himsNavInner { height: 80px; padding: 0 15px; } /* Increased for mobile */
+  .himsLogo img { height: 60px; } /* Increased for mobile */
+  .himsMobileNav {
+    top: 122px; /* 42 + 80 = 122px */
+    max-height: calc(100vh - 122px);
+  }
+  
+  /* Prevent horizontal scroll */
+  .himsNavInner, .himsNav {
+    overflow-x: hidden;
+  }
+}
+
+/* Fix Horizontal Scroll Source */
+:global(.row) {
+  margin-left: 0;
+  margin-right: 0;
+}
+:global(.container-fluid) {
+  padding-left: 15px;
+  padding-right: 15px;
+}

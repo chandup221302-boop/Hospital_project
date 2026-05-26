@@ -1,0 +1,442 @@
+/* ══════════════════════════════════════════════════════════════════
+   PREMIUM ABOUT INSTITUTE PAGE STYLES
+   Project: HIMS Varanasi
+   ══════════════════════════════════════════════════════════════════ */
+
+:root {
+  --maroon-dark:  #3a0c14;
+  --maroon:       #7b1220;
+  --maroon-hover: #5a0a14;
+  --gold:         #c9922a;
+  --gold-light:   #f0c96a;
+  --gold-glow:    rgba(201, 146, 42, 0.3);
+  --cream:        #fdf8f0;
+  --white:        #ffffff;
+  --shadow-sm:    0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-md:    0 10px 30px rgba(58, 12, 20, 0.1);
+  --shadow-lg:    0 20px 50px rgba(58, 12, 20, 0.15);
+  --transition:   all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ══════════════════ GLOBAL REFINEMENTS ══════════════════ */
+body {
+  background-color: var(--cream);
+  overflow-x: hidden;
+}
+
+/* ══════════════════ HERO SECTION (PREMIUM) ══════════════════ */
+.about-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 450px;
+  background: linear-gradient(rgba(58, 12, 20, 0.75), rgba(58, 12, 20, 0.85)), url('Images/contact-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  padding-top: 60px;
+}
+
+.about-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--gold-glow);
+  border: 1px solid var(--gold);
+  color: var(--gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  backdrop-filter: blur(5px);
+  animation: fadeInDown 0.8s forwards;
+}
+
+.about-hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 8vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  animation: fadeInUp 0.8s forwards 0.2s;
+}
+
+.about-hero-content p {
+  font-size: 1.15rem;
+  color: rgba(255,255,255,0.8);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  animation: fadeInUp 0.8s forwards 0.4s;
+}
+
+/* ══════════════════ VICE PRINCIPAL SECTION (MODERN) ══════════════════ */
+.vp-section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.vp-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: rgba(201, 146, 42, 0.03);
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 0;
+}
+
+.vp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.vp-card {
+  display: grid;
+  grid-template-columns: 1.2fr 1.8fr;
+  background: var(--white);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(201, 146, 42, 0.1);
+}
+
+.vp-image-col {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.vp-image-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+}
+
+.vp-card:hover .vp-image-col img {
+  transform: scale(1.05);
+}
+
+.vp-overlay-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  background: linear-gradient(transparent, rgba(58, 12, 20, 0.95));
+  color: var(--white);
+}
+
+.vp-overlay-info h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: var(--gold-light);
+  margin-bottom: 8px;
+}
+
+.vp-overlay-info p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 500;
+}
+
+.vp-content-col {
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff, var(--cream));
+}
+
+.vp-header {
+  margin-bottom: 35px;
+}
+
+.vp-header span {
+  display: block;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.vp-header h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--maroon-dark);
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+
+.vp-message {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #444;
+  text-align: justify;
+}
+
+.vp-message p {
+  margin-bottom: 25px;
+}
+
+.vp-signature-wrap {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(201, 146, 42, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.vp-sig-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--maroon);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+
+.vp-sig-text strong {
+  display: block;
+  color: var(--maroon);
+  font-size: 1.1rem;
+}
+
+.vp-sig-text span {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* ══════════════════ MEDICAL SUPERINTENDENT (INTEGRATED UI) ══════════════════ */
+.ms-section {
+  padding: 100px 0;
+  background: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.ms-bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15vw;
+  font-weight: 900;
+  color: rgba(58, 12, 20, 0.02);
+  white-space: nowrap;
+  user-select: none;
+  z-index: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.ms-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.ms-image-wrap {
+  position: relative;
+  padding: 20px;
+}
+
+.ms-image-frame {
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--gold);
+  border-radius: 30px;
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+
+.ms-image-main {
+  width: 100%;
+  aspect-ratio: 1/1.2;
+  background: var(--maroon-dark);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 6rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.ms-info-col {
+  padding: 0;
+}
+
+.ms-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: var(--maroon);
+  color: var(--white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.ms-info-col h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  color: var(--maroon-dark);
+  margin-bottom: 10px;
+}
+
+.ms-titles {
+  display: block;
+  font-size: 1.25rem;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.ms-titles::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--gold);
+}
+
+.ms-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ms-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  transition: var(--transition);
+}
+
+.ms-list-icon {
+  width: 54px;
+  height: 54px;
+  background: var(--cream);
+  color: var(--maroon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  border: 1px solid rgba(201, 146, 42, 0.15);
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.ms-list-item:hover .ms-list-icon {
+  background: var(--maroon);
+  color: var(--gold);
+  transform: rotateY(180deg);
+}
+
+.ms-list-content label {
+  display: block;
+  font-size: 0.7rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.ms-list-content span, 
+.ms-list-content a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--maroon-dark);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.ms-list-content a:hover {
+  color: var(--gold);
+}
+
+
+/* ══════════════════ ANIMATIONS ══════════════════ */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ══════════════════ RESPONSIVE (FIXED) ══════════════════ */
+@media (max-width: 1200px) {
+  .vp-content-col { padding: 50px; }
+  .vp-header h2 { font-size: 2.3rem; }
+}
+
+@media (max-width: 991px) {
+  .vp-card { grid-template-columns: 1fr; }
+  .vp-image-col { min-height: 400px; }
+  .vp-content-col { padding: 40px; }
+  .ms-grid { grid-template-columns: 1fr; gap: 40px; }
+  .ms-image-wrap { max-width: 500px; margin: 0 auto; }
+  .ms-info-col { text-align: center; }
+  .ms-contact-card:hover { transform: translateY(-5px); }
+}
+
+@media (max-width: 768px) {
+  .about-hero { height: 50vh; }
+  .about-hero-content h1 { font-size: 2.5rem; }
+  .vp-header h2 { font-size: 2rem; }
+  .ms-info-col h2 { font-size: 2.2rem; }
+}
+
+@media (max-width: 576px) {
+  .vp-content-col { padding: 30px 20px; }
+  .ms-contact-card { padding: 15px; }
+  .ms-icon-box { width: 50px; height: 50px; font-size: 1.2rem; }
+}

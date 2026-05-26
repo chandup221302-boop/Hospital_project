@@ -1,0 +1,257 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: linear-gradient(rgba(109, 16, 32, 0.85), rgba(109, 16, 32, 0.85)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 20px 40px rgba(109, 16, 32, 0.15);
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+/* ALBUMS SECTION */
+.albumsSection {
+  padding: 80px 0 120px;
+}
+
+.noDataMessage {
+  text-align: center;
+  padding: 50px;
+  color: #666;
+  font-size: 1.2rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.albumGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 40px;
+}
+
+.albumCard {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+  border: 1px solid rgba(109, 16, 32, 0.05);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.albumCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 60px rgba(109, 16, 32, 0.12);
+  border-color: rgba(109, 16, 32, 0.15);
+}
+
+.cardLinkWrap {
+  display: block;
+  width: 100%;
+}
+
+.albumCoverWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.albumCoverImg {
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.albumCard:hover .albumCoverImg {
+  transform: scale(1.08);
+}
+
+.albumOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(109, 16, 32, 0.4);
+  display: flex;
+  
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.albumCard:hover .albumOverlay {
+  opacity: 1;
+}
+
+.readMoreBadge {
+  background: #ffd27a;
+  color: #6d1020;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.albumCard:hover .readMoreBadge {
+  transform: translateY(0);
+}
+
+.albumInfo {
+  padding: 30px;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsMeta {
+  display: flex;
+  
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.newsMeta span {
+  display: flex;
+  
+  gap: 6px;
+  color: #888;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.newsMeta span svg {
+  color: #6d1020;
+  font-size: 0.95rem;
+}
+
+.albumInfo h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.albumInfo h3 a {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.albumCard:hover h3 a {
+  color: #6d1020;
+}
+
+.readMoreBtn {
+  display: inline-flex;
+  
+  gap: 8px;
+  color: #6d1020;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.readMoreBtn svg {
+  transition: transform 0.3s ease;
+}
+
+.readMoreBtn:hover {
+  color: #ffd27a;
+}
+
+.albumCard:hover .readMoreBtn svg {
+  transform: translateX(5px);
+}
+
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    padding: 100px 0;
+  }
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .albumsSection {
+    padding: 100px 0;
+  }
+  .albumGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .albumInfo {
+    padding: 25px 20px;
+  }
+}

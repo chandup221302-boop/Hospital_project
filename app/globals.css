@@ -1,0 +1,87 @@
+:root {
+  --maroon-dark: #3e0d19;
+  --maroon: #6d1020;
+  --gold: #c9922a;
+  --gold-light: #ffd27a;
+  --cream: #fdf8f0;
+  --white: #ffffff;
+  --border-gold: rgba(201, 146, 42, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: var(--cream);
+  color: var(--maroon-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.mobile-nav-open {
+  overflow: hidden;
+}
+
+/* Common Section Badge */
+.section-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(123, 18, 32, 0.08);
+  color: var(--maroon);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(123, 18, 32, 0.15);
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgba(255, 210, 122, 0.1);
+  color: var(--gold-light);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+  letter-spacing: 0.08em;
+  backdrop-filter: blur(4px);
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--maroon-dark);
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.section-sub {
+  font-size: 1.15rem;
+  color: #666;
+  max-width: 700px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,363 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: linear-gradient(rgba(109, 16, 32, 0.85), rgba(109, 16, 32, 0.85)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 20px 40px rgba(109, 16, 32, 0.15);
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+/* CORE SECTION */
+.coreSection {
+  margin-top: -80px;
+  padding-bottom: 80px;
+  position: relative;
+  z-index: 10;
+}
+
+.visionCard, .missionCard {
+  background: #fff;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.05);
+  height: 100%;
+  border: 1px solid rgba(109, 16, 32, 0.05);
+  transition: all 0.4s ease;
+}
+
+.visionCard:hover, .missionCard:hover {
+  transform: translateY(-10px);
+  border-color: rgba(109, 16, 32, 0.15);
+  box-shadow: 0 25px 70px rgba(109, 16, 32, 0.08);
+}
+
+.iconBox {
+  width: 70px;
+  height: 70px;
+  background: #fdfaf7;
+  border-radius: 20px;
+  display: flex;
+  
+  justify-content: center;
+  color: #6d1020;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.cardHeader span {
+  color: #6d1020;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+}
+
+.cardHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.cardHeader h2 span {
+  color: #6d1020;
+}
+
+.cardContent {
+  position: relative;
+}
+
+.quoteIcon {
+  font-size: 2.5rem;
+  color: #6d1020;
+  opacity: 0.1;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.visionText {
+  font-size: 1.4rem;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #222;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.visionDescription {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.missionText {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.missionQuote {
+  font-size: 1.05rem;
+  color: #666;
+  line-height: 1.7;
+  font-style: italic;
+  padding-left: 15px;
+  border-left: 3px solid rgba(109, 16, 32, 0.2);
+}
+
+/* PHILOSOPHY SECTION */
+.philosophySection {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.subHeader {
+  color: #6d1020;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+}
+
+.sectionHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.sectionHeader h2 span {
+  color: #6d1020;
+}
+
+.philosophyGrid {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.philRow {
+  display: flex;
+  gap: 40px;
+}
+
+.philIconCol {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.philIcon {
+  width: 60px;
+  height: 60px;
+  background: #6d1020;
+  color: #ffd27a;
+  border-radius: 50%;
+  display: flex;
+  
+  justify-content: center;
+  font-size: 1.5rem;
+  z-index: 2;
+}
+
+.philLine {
+  width: 2px;
+  flex-grow: 1;
+  background: rgba(109, 16, 32, 0.1);
+  margin: 10px 0;
+}
+
+.philContentCol {
+  padding-bottom: 60px;
+}
+
+.philContentCol h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.philContentCol h3 span {
+  font-size: 1.1rem;
+  color: #6d1020;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.philContentCol p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.statBox {
+  display: inline-block;
+  background: #fdfaf7;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border-left: 4px solid #6d1020;
+}
+
+.statBox strong {
+  display: block;
+  font-size: 1.4rem;
+  color: #6d1020;
+}
+
+.statBox span {
+  font-size: 0.85rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.pillarRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pillarRow span {
+  background: #fdfaf7;
+  color: #6d1020;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: 1px solid rgba(109, 16, 32, 0.1);
+}
+
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+  .visionCard, .missionCard {
+    padding: 35px;
+    border-radius: 20px;
+  }
+  .sectionHeader h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    padding: 100px 0;
+    border-radius: 0 0 35px 35px;
+  }
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .heroContent p {
+    font-size: 1.1rem;
+  }
+  .coreSection {
+    margin-top: -30px;
+    padding-bottom: 50px;
+  }
+  .visionCard, .missionCard {
+    padding: 30px 20px;
+  }
+  .visionText {
+    font-size: 1.2rem;
+  }
+  .missionCard p {
+    font-size: 1rem;
+  }
+  .sectionHeader {
+    margin-bottom: 40px;
+  }
+  .sectionHeader h2 {
+    font-size: 2rem;
+  }
+  .philRow {
+    gap: 15px;
+  }
+  .philIcon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+  .philContentCol h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .philContentCol h3 span {
+    display: block;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .philContentCol p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  .statBox {
+    padding: 12px 20px;
+  }
+  .pillarRow span {
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+}

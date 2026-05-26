@@ -1,0 +1,117 @@
+/* ══════════════════ TOP BAR STYLES ══════════════════ */
+
+.topBar {
+  position: relative;
+  height: 42px;
+  z-index: 1300;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--gold);
+  background: linear-gradient(140deg, var(--maroon-dark) 0%, var(--maroon) 55%, #3e0d19 100%) !important;
+  overflow: hidden;
+}
+
+#topbarContainer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#topbarLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#topbarRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(201, 146, 42, 0.12);
+  border: 1px solid rgba(201, 146, 42, 0.25);
+  color: var(--gold-light);
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.25s;
+  white-space: nowrap;
+}
+
+.topBtn:hover {
+  background: var(--gold);
+  color: var(--maroon-dark);
+}
+
+.topIconBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--gold-light);
+  border: 1px solid var(--border-gold);
+  background: rgba(201, 146, 42, 0.08);
+  transition: 0.25s;
+}
+
+.topIconBtn:hover {
+  background: var(--gold);
+  color: var(--maroon-dark);
+}
+
+/* Mobile responsive for top bar */
+@media (max-width: 768px) {
+  #topbarContainer {
+    flex-direction: row;
+    gap: 8px;
+    padding: 0 10px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #topbarLeft {
+    flex: 1;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 2px;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #topbarRight {
+    flex-shrink: 0;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  #topbarLeft::-webkit-scrollbar {
+    height: 0;
+    display: none;
+  }
+
+  .topBtn {
+    font-size: 11px;
+    padding: 3px 8px;
+    flex-shrink: 0;
+  }
+
+  .topIconBtn {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HIMS – Heritage Institute of Medical Sciences, Varanasi</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet"/>
+
+  <!-- Hero Section Premium Styles -->
+  <link rel="stylesheet" href="Top-bar.css"/>
+  <link rel="stylesheet" href="navbar-styles.css"/>
+  <link rel="stylesheet" href="hero-styles.css"/>
+  <link rel="stylesheet" href="faq-styles.css"/>
+  <link rel="stylesheet" href="courses-styles.css"/>
+  <link rel="stylesheet" href="video-banner.css"/>
+  <link rel="stylesheet" href="footer-styles.css"/>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="icon" type="image/x-icon" href="Images/hims_favicon.ico">
+  
+
+
+
+  <style>
+    * { box-sizing: border-box; }
+
+    :root {
+      --maroon-dark:  #5a0a14;
+      --maroon:       #7b1220;
+      --gold:         #c9922a;
+      --gold-light:   #f0c96a;
+      --cream:        #fdf8f0;
+      --white:        #ffffff;
+      --border-gold:  rgba(201,146,42,0.40);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { overflow-x: hidden; }
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      background: var(--cream);
+      color: var(--maroon-dark);
+      overflow-x: hidden;
+      padding-top: 40px;
+    }
+    a { text-decoration: none; }
+
+    
+
+
+    /* ══════════════════ HERO ══════════════════ */
+    .hero {
+      min-height: 75vh;
+      display: flex; align-items: center; justify-content: center;
+      text-align: center; padding: 132px 20px 70px 20px;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 20% 60%, rgba(201,146,42,0.08) 0%, transparent 60%),
+                  radial-gradient(ellipse at 80% 25%, rgba(201,146,42,0.06) 0%, transparent 50%);
+    }
+    .hero-inner { position: relative; z-index: 1; max-width: 700px; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(201,146,42,0.16); border: 1px solid var(--gold);
+      color: var(--gold-light); font-size: 0.72rem; letter-spacing: 0.14em;
+      text-transform: uppercase; padding: 5px 16px;
+      border-radius: 20px; margin-bottom: 20px;
+    }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.9rem, 5vw, 3.4rem);
+      color: #fff; line-height: 1.18; margin-bottom: 16px;
+    }
+    .hero-title span { color: var(--gold-light); }
+    .hero-sub {
+      color: rgba(255,255,255,0.68);
+      font-size: clamp(0.87rem, 2vw, 1rem);
+      line-height: 1.75; margin-bottom: 32px;
+    }
+    .btn-gold {
+      background: var(--gold); color: var(--maroon-dark);
+      font-weight: 700; font-size: 0.84rem; letter-spacing: 0.04em;
+      padding: 12px 26px; border-radius: 5px;
+      display: inline-flex; align-items: center; gap: 8px;
+      transition: background .2s, transform .15s;
+    }
+    .btn-gold:hover { background: var(--gold-light); transform: translateY(-2px); color: var(--maroon-dark); }
+    .btn-outline-wh {
+      background: transparent; border: 2px solid rgba(255,255,255,0.38);
+      color: #fff; font-weight: 600; font-size: 0.84rem;
+      padding: 12px 26px; border-radius: 5px;
+      display: inline-flex; align-items: center; gap: 8px;
+      transition: all .2s;
+    }
+    .btn-outline-wh:hover { border-color: var(--gold); color: var(--gold-light); background: rgba(201,146,42,0.1); }
+
+    .stats-bar { background: var(--maroon-dark); border-top: 2px solid var(--gold); padding: 22px 0; }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--gold); line-height: 1; }
+    .stat-label { font-size: 0.71rem; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }
+    @media (min-width: 576px) { .stat-divider { border-left: 1px solid rgba(201,146,42,0.25); } }
+
+    .sec-badge {
+      display: inline-block; background: rgba(220,38,38,0.15);
+      border: 1px solid rgba(220,38,38,0.3); color: #dc2626;
+      font-size: 0.7rem; letter-spacing: 0.12em;
+      text-transform: uppercase; padding: 4px 14px;
+      border-radius: 20px; margin-bottom: 10px;
+    }
+    .sec-title { font-family: 'Playfair Display', serif; font-size: clamp(1.45rem, 3.5vw, 2rem); color: var(--maroon-dark); margin-bottom: 8px; }
+    .sec-sub { color: #7a3040; font-size: 0.88rem; line-height: 1.72; margin-bottom: 28px; }
+
+    .card-dept { border: 1px solid rgba(123,18,32,0.11); border-radius: 10px; padding: 22px 18px; background: #fff; text-align: center; transition: box-shadow .2s, transform .2s; cursor: default; }
+    .card-dept:hover { box-shadow: 0 8px 28px rgba(90,10,20,0.13); transform: translateY(-4px); }
+    .card-dept .icon { font-size: 2rem; color: var(--maroon); margin-bottom: 10px; }
+    .card-dept h6 { font-weight: 700; font-size: 0.85rem; color: var(--maroon-dark); margin: 0; }
+
+    .notice-item { border-left: 3px solid var(--gold); padding: 10px 16px; background: #fff; margin-bottom: 9px; border-radius: 0 6px 6px 0; font-size: 0.83rem; color: #3a0c14; }
+    .notice-item .date { font-size: 0.71rem; color: #8c3040; margin-bottom: 3px; }
+
+    .card-why { border: 1px solid rgba(123,18,32,0.1); border-radius: 10px; padding: 24px 20px; background: #fff; transition: box-shadow .2s, transform .2s; }
+    .card-why:hover { box-shadow: 0 8px 24px rgba(90,10,20,0.11); transform: translateY(-3px); }
+    .card-why .icon { font-size: 1.8rem; color: var(--maroon); margin-bottom: 12px; }
+    .card-why h6 { font-weight: 700; font-size: 0.88rem; color: var(--maroon-dark); margin-bottom: 8px; }
+    .card-why p { font-size: 0.79rem; color: #5a1020; line-height: 1.7; margin: 0; }
+
+    
+
+ /* ═══════════════════════════════
+     START HERO SECTION CSS
+ ═══════════════════════════════ */
+     
+  .hims-section { padding: 3rem 1.2rem; background: transparent; }
+.section-badge {
+  display: inline-block;
+  background: #f8e8e6; color: #8B1A10;
+  font-size: 13px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase;
+  padding: 6px 20px; border-radius: 30px; margin-bottom: 14px;
+}
+.section-title {
+  font-size: clamp(22px, 4vw, 32px); font-weight: 800;
+  color: #111111; margin-bottom: 10px; line-height: 1.25;
+}
+.section-sub {
+  font-size: clamp(15px, 2vw, 17px); color: #444444; margin-bottom: 2.5rem;
+}
+.feat-card {
+  background: #ffffff;
+  border: 1.5px solid rgba(139,26,16,0.18);
+  border-radius: 20px; padding: 2rem 1.6rem 1.8rem;
+  height: 100%; display: flex; flex-direction: column;
+  position: relative; overflow: hidden; cursor: default;
+  transition: transform 0.28s cubic-bezier(.22,.68,0,1.2), box-shadow 0.28s ease, border-color 0.28s ease, background 0.28s ease;
+}
+.feat-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 48px rgba(139,26,16,0.16), 0 4px 12px rgba(139,26,16,0.10);
+  border-color: rgba(139,26,16,0.6); background: #fff3f2;
+}
+.card-num {
+  position: absolute; top: 1.1rem; right: 1.4rem;
+  font-size: 52px; font-weight: 900;
+  color: rgba(139,26,16,0.20); line-height: 1;
+  user-select: none; font-family: Georgia, serif;
+  transition: color 0.28s ease;
+}
+.feat-card:hover .card-num { color: rgba(139,26,16,0.32); }
+
+.icon-wrap {
+  width: 72px; height: 72px; border-radius: 18px;
+  background: #f8e8e6; display: flex; align-items: center; justify-content: center;
+  margin-bottom: 1.3rem; flex-shrink: 0;
+  border: 1.5px solid rgba(139,26,16,0.12);
+  transition: background 0.28s ease, transform 0.28s ease, border-color 0.28s ease;
+}
+.feat-card:hover .icon-wrap {
+  background: #8B1A10; transform: scale(1.08); border-color: #8B1A10;
+}
+.icon-wrap i {
+  font-size: 34px; color: #8B1A10;
+  transition: color 0.28s ease;
+}
+.feat-card:hover .icon-wrap i { color: #ffffff; }
+
+.card-divider {
+  width: 40px; height: 3.5px;
+  background: linear-gradient(90deg, #8B1A10, #e05043);
+  border-radius: 3px; margin-bottom: 1rem;
+  transition: width 0.3s ease;
+}
+.feat-card:hover .card-divider { width: 70px; }
+
+.card-title {
+  font-size: clamp(16px, 2.5vw, 18px); font-weight: 700;
+  color: #111111; margin-bottom: 0.6rem; line-height: 1.3;
+  transition: color 0.28s ease;
+}
+.card-text {
+  font-size: clamp(14px, 2vw, 15px); color: #333333;
+  line-height: 1.75; flex: 1; margin-bottom: 1.4rem;
+  transition: color 0.28s ease;
+}
+.feat-card:hover .card-title { color: #5a0a05; }
+.feat-card:hover .card-text  { color: #1a0806; }
+
+.learn-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: clamp(13px, 1.8vw, 14px); font-weight: 700;
+  color: #8B1A10; background: #f8e8e6; border: none;
+  border-radius: 10px; padding: 10px 20px;
+  text-decoration: none; width: fit-content; letter-spacing: 0.3px;
+  transition: background 0.22s ease, color 0.22s ease, transform 0.18s ease;
+}
+.learn-btn:hover { background: #8B1A10; color: #fff; transform: translateX(3px); }
+.learn-btn i.arrow { font-size: 15px; transition: transform 0.2s ease; }
+.learn-btn:hover i.arrow { transform: translateX(4px); }
+
+ /* ═══════════════════════════════
+     END HERO SECTION CSS
+ ═══════════════════════════════ */
+
+      </style>
+</head>
+<body>
+
+ <!-- ========================= -->
+  <!-- MAIN TOP BAR -->
+  <!-- ========================= -->
+  <div id="main-top-bar">
+
+    <div id="topbar-container">
+
+      <!-- LEFT SIDE -->
+
+      <div id="topbar-left">
+
+        <!-- HELPLINE -->
+
+        <a href="tel:+919876543210"
+           class="top-btn">
+
+          <i class="fa-solid fa-phone-volume"></i>
+
+          Admission Helpline
+
+        </a>
+
+        <!-- APPLY -->
+
+        <a href="#"
+           class="top-btn">
+
+          <i class="fa-solid fa-pen-to-square"></i>
+
+          Apply Now
+
+        </a>
+
+        <!-- PAYMENT -->
+
+        <a href="#"
+           class="top-btn">
+
+          <i class="fa-solid fa-credit-card"></i>
+
+          Online Payment
+
+        </a>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+
+      <div id="topbar-right">
+
+        <!-- EMAIL -->
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=demo@example.com"
+           target="_blank"
+           class="top-icon-btn"
+           title="Send Email">
+
+          <i class="fa-solid fa-envelope"></i>
+
+        </a>
+
+        <!-- CALL -->
+
+        <a href="tel:+919876543210"
+           class="top-icon-btn"
+           title="Call Now">
+
+          <i class="fa-solid fa-phone"></i>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+<!-- ══════════════════ DESKTOP/TABLET NAVBAR ══════════════════ -->
+<nav class="hims-nav">
+  <div class="hims-nav-inner">
+
+    <!-- LOGO -->
+    <a class="hims-logo" href="heritage-institute.html">
+      <img src="Images/Logo.webp" alt="HIMS Varanasi Logo"/>
+    </a>
+
+    <!-- HAMBURGER (mobile only) -->
+    <button class="hims-toggler" id="himsToggler" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- DESKTOP LINKS -->
+    <ul class="hims-nav-links d-none d-lg-flex">
+
+      <!-- HOME -->
+      <li class="active">
+        <a href="heritage-institute.html"><i class="fa-solid fa-house" style="font-size:0.7rem;"></i> Home</a>
+      </li>
+
+      <!-- ABOUT HIMS -->
+      <li>
+        <a href="javascript:void(0)">About HIMS <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple">
+          <a href="about-institute.html"><i class="fa-solid fa-building-columns"></i>About Institute</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-eye"></i>Vision &amp; Mission</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-message"></i>Principal Message</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-city"></i>Infrastructure</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-route"></i>Campus Tour</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-images"></i>Photo Gallery</a>
+        </div>
+      </li>
+
+      <!-- ACADEMICS -->
+      <li>
+        <a href="javascript:void(0)">Academics <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple">
+          <div class="dd-sub">
+            <a href="javascript:void(0)"><i class="fa-solid fa-book-open"></i>Courses <i class="fa-solid fa-chevron-right dd-caret"></i></a>
+            <div class="dd-sub-dropdown">
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>MBBS</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>PG Courses</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Nursing</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Allied Health</a>
+            </div>
+          </div>
+          <div class="dd-sub">
+            <a href="javascript:void(0)"><i class="fa-solid fa-user-graduate"></i>Admissions <i class="fa-solid fa-chevron-right dd-caret"></i></a>
+            <div class="dd-sub-dropdown">
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Eligibility</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Fee Structure</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Admission Process</a>
+            </div>
+          </div>
+          <div class="dd-sub">
+            <a href="javascript:void(0)"><i class="fa-solid fa-layer-group"></i>Academic Resources <i class="fa-solid fa-chevron-right dd-caret"></i></a>
+            <div class="dd-sub-dropdown">
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Academic Calendar</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Time Tables</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Internship Schedule</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Curriculum</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- DEPARTMENTS -->
+      <li>
+        <a href="javascript:void(0)">Departments <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple">
+          <div class="dd-sub">
+            <a href="javascript:void(0)"><i class="fa-solid fa-stethoscope"></i>Clinical <i class="fa-solid fa-chevron-right dd-caret"></i></a>
+            <div class="dd-sub-dropdown">
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>General Medicine</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Surgery</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Pediatrics</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Orthopedics</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>ENT</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Dermatology</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Psychiatry</a>
+            </div>
+          </div>
+          <div class="dd-sub">
+            <a href="javascript:void(0)"><i class="fa-solid fa-flask"></i>Non Clinical <i class="fa-solid fa-chevron-right dd-caret"></i></a>
+            <div class="dd-sub-dropdown">
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Anatomy</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Physiology</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Pharmacology</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Pathology</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Microbiology</a>
+              <a href="javascript:void(0)"><i class="fa-solid fa-circle-dot"></i>Forensic Medicine</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- HOSPITAL -->
+      <li>
+        <a href="javascript:void(0)">Hospital <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple">
+          <a href="javascript:void(0)"><i class="fa-solid fa-circle-info"></i>Hospital Overview</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-user-doctor"></i>OPD Services</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-truck-medical"></i>Emergency</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-bed-pulse"></i>ICU</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-microscope"></i>Diagnostics</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-bed"></i>Bed Capacity</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-building"></i>Clinical Facilities</a>
+        </div>
+      </li>
+
+      <!-- FACULTY & RESEARCH -->
+      <li>
+        <a href="javascript:void(0)">Faculty &amp; Research <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple dd-right">
+          <a href="javascript:void(0)"><i class="fa-solid fa-chalkboard-user"></i>Teaching Faculty</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-users"></i>Non Teaching Staff</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-file-lines"></i>Research Publications</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-flask-vial"></i>Research Work</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-calendar-check"></i>CME &amp; Conferences</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-trophy"></i>Awards &amp; Achievements</a>
+        </div>
+      </li>
+
+      <!-- STUDENT LIFE -->
+      <li>
+        <a href="javascript:void(0)">Student Life <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple dd-right">
+          <a href="javascript:void(0)"><i class="fa-solid fa-house-chimney"></i>Hostel</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-shield-halved"></i>Anti Ragging</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-comment-dots"></i>Student Grievance</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-clipboard-list"></i>Campus Rules</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-music"></i>Cultural Activities</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-futbol"></i>Sports</a>
+        </div>
+      </li>
+
+      <!-- DISCLOSURE -->
+      <li>
+        <a href="javascript:void(0)">Disclosure <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple dd-right">
+          <a href="javascript:void(0)"><i class="fa-solid fa-file-shield"></i>MARB Information</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-stamp"></i>Govt Approvals</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-link"></i>Affiliated University</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-users-line"></i>Intake Capacity</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-list-check"></i>Results</a>
+        </div>
+      </li>
+
+      <!-- NOTICES -->
+      <li>
+        <a href="javascript:void(0)">Notices <i class="fa-solid fa-chevron-down nav-caret"></i></a>
+        <div class="dd-simple dd-right">
+          <a href="javascript:void(0)"><i class="fa-solid fa-newspaper"></i>News &amp; Media</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-calendar-days"></i>Events</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-file-contract"></i>Tenders</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-briefcase"></i>Careers</a>
+          <a href="javascript:void(0)"><i class="fa-solid fa-bullhorn"></i>Announcements</a>
+        </div>
+      </li>
+      
+      <!-- CONTACT US -->
+      <li>
+        <a href="contact-us.html"><i class="fa-solid fa-envelope" style="font-size:0.7rem;"></i> Contact Us</a>
+      </li>
+
+    </ul><!-- end desktop links -->
+  </div><!-- end hims-nav-inner -->
+
+  <!-- ══════════════════ MOBILE NAV ══════════════════ -->
+  <div class="hims-mobile-nav" id="himsMobileNav">
+
+    <!-- HOME -->
+    <div class="mob-item">
+      <a href="heritage-institute.html" class="mob-link"><i class="fas fa-home"></i>Home</a>
+    </div>
+
+    <!-- ABOUT HIMS -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobAbout')">About HIMS <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobAbout">
+        <a href="about-institute.html"><i class="fas fa-university"></i>About Institute</a>
+        <a href="javascript:void(0)"><i class="fas fa-eye"></i>Vision &amp; Mission</a>
+        <a href="javascript:void(0)"><i class="fas fa-envelope"></i>Principal Message</a>
+        <a href="javascript:void(0)"><i class="fas fa-building"></i>Infrastructure</a>
+        <a href="javascript:void(0)"><i class="fas fa-map"></i>Campus Tour</a>
+        <a href="javascript:void(0)"><i class="fas fa-images"></i>Photo Gallery</a>
+      </div>
+    </div>
+
+    <!-- ACADEMICS -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobAcademics')">Academics <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobAcademics">
+        <button class="mob-sub-header open" onclick="mobSubToggle(this,'mobCourses')">
+          <span><i class="fas fa-book"></i>Courses</span>
+          <i class="fas fa-chevron-down sub-caret"></i>
+        </button>
+        <div class="mob-sub-panel" id="mobCourses">
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>MBBS</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>PG Courses</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Nursing</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Allied Health</a>
+        </div>
+        <button class="mob-sub-header" onclick="mobSubToggle(this,'mobResources')">
+          <span><i class="fas fa-layer-group"></i>Academic Resources</span>
+          <i class="fas fa-chevron-down sub-caret"></i>
+        </button>
+        <div class="mob-sub-panel collapsed" id="mobResources">
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Academic Calendar</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Time Tables</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Internship Schedule</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Curriculum</a>
+        </div>
+        <button class="mob-sub-header" onclick="mobSubToggle(this,'mobAdmissions')">
+          <span><i class="fas fa-graduation-cap"></i>Admissions</span>
+          <i class="fas fa-chevron-down sub-caret"></i>
+        </button>
+        <div class="mob-sub-panel collapsed" id="mobAdmissions">
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Eligibility</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Fee Structure</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Admission Process</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEPARTMENTS -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobDepts')">Departments <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobDepts">
+        <button class="mob-sub-header open" onclick="mobSubToggle(this,'mobClinical')">
+          <span><i class="fas fa-stethoscope"></i>Clinical</span>
+          <i class="fas fa-chevron-down sub-caret"></i>
+        </button>
+        <div class="mob-sub-panel" id="mobClinical">
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>General Medicine</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Surgery</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Pediatrics</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Orthopedics</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>ENT</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Dermatology</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Psychiatry</a>
+        </div>
+        <button class="mob-sub-header" onclick="mobSubToggle(this,'mobNonClinical')">
+          <span><i class="fas fa-flask"></i>Non Clinical</span>
+          <i class="fas fa-chevron-down sub-caret"></i>
+        </button>
+        <div class="mob-sub-panel collapsed" id="mobNonClinical">
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Anatomy</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Physiology</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Pharmacology</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Pathology</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Microbiology</a>
+          <a href="javascript:void(0)"><i class="fas fa-circle"></i>Forensic Medicine</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOSPITAL -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobHospital')">Hospital <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobHospital">
+        <a href="javascript:void(0)"><i class="fas fa-info-circle"></i>Hospital Overview</a>
+        <a href="javascript:void(0)"><i class="fas fa-user-md"></i>OPD Services</a>
+        <a href="javascript:void(0)"><i class="fas fa-ambulance"></i>Emergency</a>
+        <a href="javascript:void(0)"><i class="fas fa-procedures"></i>ICU</a>
+        <a href="javascript:void(0)"><i class="fas fa-microscope"></i>Diagnostics</a>
+        <a href="javascript:void(0)"><i class="fas fa-bed"></i>Bed Capacity</a>
+        <a href="javascript:void(0)"><i class="fas fa-hospital"></i>Clinical Facilities</a>
+      </div>
+    </div>
+
+    <!-- FACULTY & RESEARCH -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobFaculty')">Faculty &amp; Research <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobFaculty">
+        <a href="javascript:void(0)"><i class="fas fa-chalkboard-teacher"></i>Teaching Faculty</a>
+        <a href="javascript:void(0)"><i class="fas fa-users"></i>Non Teaching Staff</a>
+        <a href="javascript:void(0)"><i class="fas fa-file-alt"></i>Research Publications</a>
+        <a href="javascript:void(0)"><i class="fas fa-flask"></i>Research Work</a>
+        <a href="javascript:void(0)"><i class="fas fa-calendar-alt"></i>CME &amp; Conferences</a>
+        <a href="javascript:void(0)"><i class="fas fa-trophy"></i>Awards &amp; Achievements</a>
+      </div>
+    </div>
+
+    <!-- STUDENT LIFE -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobStudent')">Student Life <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobStudent">
+        <a href="javascript:void(0)"><i class="fas fa-home"></i>Hostel</a>
+        <a href="javascript:void(0)"><i class="fas fa-shield-alt"></i>Anti Ragging</a>
+        <a href="javascript:void(0)"><i class="fas fa-comments"></i>Student Grievance</a>
+        <a href="javascript:void(0)"><i class="fas fa-clipboard-list"></i>Campus Rules</a>
+        <a href="javascript:void(0)"><i class="fas fa-music"></i>Cultural Activities</a>
+        <a href="javascript:void(0)"><i class="fas fa-futbol"></i>Sports</a>
+      </div>
+    </div>
+
+    <!-- DISCLOSURE -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobDisclosure')">Disclosure <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobDisclosure">
+        <a href="javascript:void(0)"><i class="fas fa-file-shield"></i>MARB Information</a>
+        <a href="javascript:void(0)"><i class="fas fa-certificate"></i>Govt Approvals</a>
+        <a href="javascript:void(0)"><i class="fas fa-link"></i>Affiliated University</a>
+        <a href="javascript:void(0)"><i class="fas fa-users"></i>Intake Capacity</a>
+        <a href="javascript:void(0)"><i class="fas fa-list-check"></i>Results</a>
+      </div>
+    </div>
+
+    <!-- NOTICES -->
+    <div class="mob-item">
+      <button class="mob-link" onclick="mobToggle(this,'mobNotices')">Notices <i class="fas fa-chevron-down mob-caret"></i></button>
+      <div class="mob-panel" id="mobNotices">
+        <a href="javascript:void(0)"><i class="fas fa-newspaper"></i>News &amp; Media</a>
+        <a href="javascript:void(0)"><i class="fas fa-calendar"></i>Events</a>
+        <a href="javascript:void(0)"><i class="fas fa-file-contract"></i>Tenders</a>
+        <a href="javascript:void(0)"><i class="fas fa-briefcase"></i>Careers</a>
+        <a href="javascript:void(0)"><i class="fas fa-bullhorn"></i>Announcements</a>
+    </div>
+
+    <!-- CONTACT US -->
+    <div class="mob-item">
+      <a href="contact-us.html" class="mob-link"><i class="fas fa-envelope"></i>Contact Us</a>
+    </div>
+
+  </div><!-- end mobile nav -->
+</nav>
+
+<!-- ═══════════════════════════════
+     START VIDEO BANNER SECTION
+═══════════════════════════════ -->
+<section class="video-banner-section">
+  <video autoplay muted loop playsinline preload="auto" class="banner-video">
+    <source src="Videos/heritage_Video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="video-overlay"></div>
+  <div class="video-caption-container">
+    <span class="hero-badge" style="border-color: rgba(255,255,255,0.4); color: #fff; background: rgba(0,0,0,0.3); text-shadow: none;">Welcome to HIMS</span>
+    <h1 class="video-title">Heritage Institute of <br><span>Medical Sciences</span></h1>
+    <p class="video-subtitle">A Premier Medical Institution Dedicated to Healthcare & Education</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════
+     START HERO SECTION
+═══════════════════════════════ -->
+
+<div class="hims-section">
+  <div class="container-fluid px-0">
+    <div class="text-center mb-5">
+      <span class="section-badge">Our Pillars of Excellence</span>
+      <h2 class="section-title">Built on Trust.<br>Driven by Excellence.</h2>
+      <p class="section-sub">Every pillar we stand on is crafted for your confidence, growth & success.</p>
+      <div class="caption-line"></div>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- 01 Government Approved → bi-shield-check -->
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="feat-card w-100">
+          <div class="top-bar"></div>
+          <span class="card-num">01</span>
+          <div class="icon-wrap"><i class="bi bi-shield-check"></i></div>
+          <div class="card-divider"></div>
+          <div class="card-title">Government Approved</div>
+          <p class="card-text">HIMS is strictly compliant with the guidelines of NATIONAL MEDICAL COMMISSION (NMC) . All programs offered are approved by Ministry of Health & Family Welfare, Government of India, and are affiliated with MGKVP University & ABVM University.</p>
+          <a href="#" class="learn-btn">Learn more <i class="bi bi-arrow-right arrow"></i></a>
+        </div>
+      </div>
+
+      <!-- 02 Transparent Fee → bi-cash-coin -->
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="feat-card w-100">
+          <div class="top-bar"></div>
+          <span class="card-num">02</span>
+          <div class="icon-wrap"><i class="bi bi-cash-coin"></i></div>
+          <div class="card-divider"></div>
+          <div class="card-title">Transparent Fee Policies</div>
+          <p class="card-text">The Institute prides itself on the transparency of its fee structure, with no hidden costs. Every stipulation in the annual fee structure is in accordance with the State Government Policy</p>
+          <a href="#" class="learn-btn">Learn more <i class="bi bi-arrow-right arrow"></i></a>
+        </div>
+      </div>
+
+      <!-- 03 Experienced Faculty → bi-person-workspace -->
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="feat-card w-100">
+          <div class="top-bar"></div>
+          <span class="card-num">03</span>
+          <div class="icon-wrap"><i class="bi bi-person-workspace"></i></div>
+          <div class="card-divider"></div>
+          <div class="card-title">Experienced Faculty</div>
+          <p class="card-text">HIMS hosts a faculty of academicians from premier institutes including AIIMS, BHU, AMU, KGMU, CMC etc with broad experience of 25-30 years in their respective fields.</p>
+          <a href="#" class="learn-btn">Learn more <i class="bi bi-arrow-right arrow"></i></a>
+        </div>
+      </div>
+
+      <!-- 04 Magnificent Campus → bi-building -->
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="feat-card w-100">
+          <div class="top-bar"></div>
+          <span class="card-num">04</span>
+          <div class="icon-wrap"><i class="bi bi-buildings"></i></div>
+          <div class="card-divider"></div>
+          <div class="card-title">Magnificent Campus</div>
+          <p class="card-text">With 10 lac sq.ft. of completed construction and the rest in active development, HIMS is easily one of the largest medical institutions in UP. Situated in a highly connected secure campus and integrated learning environment, HIMS is pushing the envelope of educational excellence.</p>
+          <a href="#" class="learn-btn">Learn more <i class="bi bi-arrow-right arrow"></i></a>
+        </div>
+      </div>
+
+      <!-- 05 Best Facilities → bi-stars -->
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="feat-card w-100">
+          <div class="top-bar"></div>
+          <span class="card-num">05</span>
+          <div class="icon-wrap"><i class="bi bi-stars"></i></div>
+          <div class="card-divider"></div>
+          <div class="card-title">Best Facilities</div>
+          <p class="card-text">The visionary minds behind HIMS believe in providing the best of technology and comforts to the HIMS family. Sophisticated labs, comfortable hostel, and a tasty mess are just a few of the numerous glories.</p>
+          <a href="#" class="learn-btn">Learn more <i class="bi bi-arrow-right arrow"></i></a>
+        </div>
+      </div>
+
+      <!-- 06 Integrated Learning → bi-heart-pulse -->
+      <div class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="feat-card w-100">
+          <div class="top-bar"></div>
+          <span class="card-num">06</span>
+          <div class="icon-wrap"><i class="bi bi-heart-pulse"></i></div>
+          <div class="card-divider"></div>
+          <div class="card-title">Integrated Learning</div>
+          <p class="card-text">At HIMS, a state of the art hospital of 1000 beds catering to the whole of Purvanchal functions. Latest surgical, medical and diagnostic specialties coupled with experienced Professors lead the various departments and train future doctors.</p>
+          <a href="#" class="learn-btn">Learn more <i class="bi bi-arrow-right arrow"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════
+     END HERO SECTION END
+═══════════════════════════════ -->
+
+<!-- ═══════════════════════════════
+     FAQ HTML SECTION SATART
+═══════════════════════════════ -->
+
+<div class="faq-section">
+  <div class="container-fluid px-0">
+    <div class="text-center mb-5">
+      <!-- <img src="Images/Logo.webp" alt="HIMS Logo" style="height: 60px; margin-bottom: 15px;"> -->
+      <span class="section-badge">Have Questions?</span>
+      <h2 class="section-title">Why Choose HIMS?</h2>
+      <p class="section-sub mx-auto">Honest answers to everything you want to know before you decide.</p>
+    </div>
+
+    <div style="max-width: 800px; margin: 0 auto;">
+
+      <div class="faq-item open">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-shield-check"></i></div>
+            <span class="faq-q-text">Is HIMS recognized by the Government of India?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">Yes. HIMS is fully compliant with <strong>NMC (National Medical Commission)</strong> guidelines. All programs are approved by the <strong>Ministry of Health & Family Welfare</strong> and affiliated with <strong>MGKVP & ABVM University</strong>.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-cash-coin"></i></div>
+            <span class="faq-q-text">Are there any hidden charges in the fee structure?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">Absolutely none. Every detail of the fee structure is in accordance with <strong>State Government Policy</strong>. What you see is what you pay — full transparency, no surprises.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-mortarboard"></i></div>
+            <span class="faq-q-text">What courses does HIMS offer?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">HIMS offers <strong>MBBS, PG Courses, Nursing</strong> and <strong>Allied Health</strong> programs — all under an NMC-approved curriculum designed to make graduates job-ready and clinically confident.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-heart-pulse"></i></div>
+            <span class="faq-q-text">What is the hospital & clinical training like?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">HIMS runs its own <strong>1,000-bed hospital</strong> serving all of Purvanchal — with departments covering General Medicine, Surgery, Pediatrics, Orthopedics, ICU, Emergency and more. Students train on real cases from day one.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-person-workspace"></i></div>
+            <span class="faq-q-text">How experienced is the faculty at HIMS?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">Our faculty comes from <strong>AIIMS, BHU, AMU, KGMU and CMC</strong> — with an average experience of <strong>25 to 30 years</strong>. They don't just teach; they mentor and shape future doctors.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-buildings"></i></div>
+            <span class="faq-q-text">What does the campus & hostel facility look like?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">Spread across <strong>10 lakh sq.ft.</strong>, HIMS is among UP's largest medical campuses. Students get sophisticated labs, a comfortable hostel and a well-maintained mess — all within a secure environment.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-journal-medical"></i></div>
+            <span class="faq-q-text">Does HIMS support research & academic publications?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">Yes. HIMS actively supports <strong>research work and academic publications</strong>. Regular <strong>CME sessions and conferences</strong> are organized to keep students and faculty at the cutting edge of medical science.</div>
+        </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggle(this)">
+          <div class="faq-q-left">
+            <div class="faq-icon-wrap"><i class="bi bi-people"></i></div>
+            <span class="faq-q-text">What is student life like at HIMS?</span>
+          </div>
+          <div class="faq-toggle"><i class="bi bi-plus"></i></div>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-overflow">
+          <div class="faq-answer-inner">HIMS offers vibrant campus life — <strong>cultural activities, sports</strong> and a strict <strong>Anti-Ragging policy</strong> ensure every student feels safe, supported and at home throughout their journey.</div>
+        </div></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════
+     FAQ HTML SECTION END
+═══════════════════════════════ -->
+ 
+<!-- ═══════════════════════════════
+     Courses HTML SECTION SATART
+═══════════════════════════════ -->
+
+<div class="ca-section">
+  <div class="text-center mb-2">
+    <!-- <img src="Images/Logo.webp" alt="HIMS Logo" style="height: 60px; margin-bottom: 15px;"> -->
+    <span class="ca-badge"><i class="bi bi-book"></i> Academics</span>
+  </div>
+  <div class="text-center">
+    <h2 class="ca-title">Courses &amp; Academics</h2>
+    <p class="ca-sub mx-auto">NMC-approved programs designed to build confident, skilled and compassionate medical professionals.</p>
+  </div>
+
+  <div class="ca-grid-row">
+
+    <a href="#" onclick="return false;" class="ca-card">
+      <div class="ca-icon-wrap"><i class="bi bi-heart-pulse-fill"></i></div>
+      <p class="ca-card-title">MBBS</p>
+      <p class="ca-card-desc">HIMS offers an NMC-approved MBBS degree affiliated with MGKVP University. Students train from Day 1 at our own 1,000-bed hospital — one of the largest in Purvanchal — gaining real clinical exposure across all major departments.</p>
+      <ul class="ca-highlights">
+        <li>Live OPD &amp; ward rotations from Year 1</li>
+        <li>Faculty from AIIMS, BHU, KGMU &amp; CMC</li>
+        <li>State Govt. fee policy — no hidden charges</li>
+      </ul>
+      <div class="ca-card-tags">
+        <span class="ca-tag">4.5 Yrs + 1 Yr Internship</span>
+        <span class="ca-tag">Undergraduate</span>
+      </div>
+      <span class="ca-cta">Know more <i class="bi bi-arrow-right"></i></span>
+    </a>
+
+    <a href="#" onclick="return false;" class="ca-card">
+      <div class="ca-icon-wrap"><i class="bi bi-mortarboard-fill"></i></div>
+      <p class="ca-card-title">PG Courses</p>
+      <p class="ca-card-desc">HIMS postgraduate programs — MD, MS and Diploma — are designed for doctors ready to specialize. With access to a high-volume hospital, regular CME sessions and experienced senior faculty, HIMS is where specialists are shaped.</p>
+      <ul class="ca-highlights">
+        <li>Specializations in Medicine, Surgery &amp; Radiology</li>
+        <li>Active research support &amp; academic publications</li>
+        <li>High case load for deep clinical specialization</li>
+      </ul>
+      <div class="ca-card-tags">
+        <span class="ca-tag">3 Years</span>
+        <span class="ca-tag">Postgraduate</span>
+      </div>
+      <span class="ca-cta">Know more <i class="bi bi-arrow-right"></i></span>
+    </a>
+
+    <a href="#" onclick="return false;" class="ca-card">
+      <div class="ca-icon-wrap"><i class="bi bi-bandaid-fill"></i></div>
+      <p class="ca-card-title">Nursing</p>
+      <p class="ca-card-desc">HIMS Nursing programs — B.Sc and M.Sc — are affiliated with ABVM University and follow an NMC-approved curriculum. Students train directly inside our 1,000-bed hospital across ICU, OT, pediatrics and emergency care units.</p>
+      <ul class="ca-highlights">
+        <li>Hands-on ICU, OT &amp; Emergency ward training</li>
+        <li>Dedicated &amp; secure hostel facility on campus</li>
+        <li>Strong placement support after completion</li>
+      </ul>
+      <div class="ca-card-tags">
+        <span class="ca-tag">B.Sc / M.Sc</span>
+        <span class="ca-tag">NMC Approved</span>
+      </div>
+      <span class="ca-cta">Know more <i class="bi bi-arrow-right"></i></span>
+    </a>
+
+    <a href="#" onclick="return false;" class="ca-card">
+      <div class="ca-icon-wrap"><i class="bi bi-activity"></i></div>
+      <p class="ca-card-title">Allied Health</p>
+      <p class="ca-card-desc">HIMS Allied Health programs train the next generation of paramedical professionals. From Lab Technology and Physiotherapy to Radiology — students graduate with industry-ready skills and immediate employability in modern healthcare.</p>
+      <ul class="ca-highlights">
+        <li>Streams: Lab Tech, Physio, Radiology &amp; more</li>
+        <li>Live lab training inside HIMS hospital facilities</li>
+        <li>High employment rate after Diploma &amp; B.Sc</li>
+      </ul>
+      <div class="ca-card-tags">
+        <span class="ca-tag">Diploma / B.Sc</span>
+        <span class="ca-tag">Job-Ready</span>
+      </div>
+      <span class="ca-cta">Know more <i class="bi bi-arrow-right"></i></span>
+    </a>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════
+     Courses HTML SECTION END
+═══════════════════════════════ -->
+
+
+
+<!-- ══════════════════ PREMIUM FOOTER ══════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="Images/Logo.webp" alt="HIMS Logo">
+        </div>
+        <div class="brand-content">
+          <h2 class="brand-title">Destination of Excellence</h2>
+          <p class="brand-description">HIMS is a leading medical college of Uttar Pradesh, with a vast expanse of hi-tech campus and cream faculty for students. Built by the visionary team behind the renowned Heritage Hospital (Varanasi), HIMS is pushing the envelope of medical training and healthcare.</p>
+          <div class="brand-stats">
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Students</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Faculty</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Departments</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3 class="column-title" style="font-size: 1.15rem;"><i class="fas fa-file-contract"></i> Mandatory Disclosures</h3>
+            <ul class="footer-links-list">
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> MARB Information</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Govt. Approvals</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Affiliated University</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Intake Capacity – UG & PG</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Admitted Students – All Years</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Results</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Teaching Faculty List</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3 class="column-title" style="font-size: 1.15rem;"><i class="fas fa-microscope"></i> Research & Achievements</h3>
+            <ul class="footer-links-list">
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Faculty Research</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Students Research</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Research Publications</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Awards & Achievements</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> CME & Conferences</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Research Work</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3 class="column-title" style="font-size: 1.15rem;"><i class="fas fa-shield-alt"></i> Policies & Compliance</h3>
+            <ul class="footer-links-list">
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Leave Rules</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> ERSOP</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Crisis Intervention & Response Protocol</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> SOP for Confidentiality in Campus</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Citizen Charter</a></li>
+              <li><a href="javascript:void(0)"><i class="fas fa-angle-right"></i> Monthly ATR</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3 class="column-title" style="font-size: 1.15rem;"><i class="fas fa-address-card"></i> Contact Info</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="contact-text">
+                  <strong>Address:</strong>
+                  <span>NH2, GT Road Bypass, Bhadwar, Varanasi, UP – 221311.</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                
+                <div class="contact-text">
+                  <strong>Phone:</strong>
+                  <i class="fas fa-phone"></i>
+                  <span>07408702222</span><br>
+                  <i class="fas fa-phone"></i>
+                  <span>09450530506</span><br>
+                  <i class="fas fa-phone"></i>
+                  <span>0542-7111071</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-text">
+                  <strong>Email:</strong>
+                  <span>info@heritageims.com</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="footer-notices">
+          <div class="notices-column">
+            <h3 class="column-title" style="font-size: 1.15rem;"><i class="fas fa-bullhorn"></i> Public Notices</h3>
+            <ul class="footer-links-inline">
+              <li><a href="javascript:void(0)">Non-Teaching Staff List</a></li>
+              <li><a href="javascript:void(0)">Bed Capacity</a></li>
+              <li><a href="javascript:void(0)">News & Media</a></li>
+              <li><a href="javascript:void(0)">Events</a></li>
+              <li><a href="javascript:void(0)">Tenders</a></li>
+              <li><a href="javascript:void(0)">Careers</a></li>
+              <li><a href="javascript:void(0)">Announcements</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom px-5">
+      <div class="bottom-content">
+        <div class="copyright-text">
+          <p><i class="far fa-copyright"></i> 2025 Heritage Institute of Medical Sciences, Varanasi. All Rights Reserved.</p>
+        </div>
+        <div class="social-icons">
+          <a href="javascript:void(0)" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="javascript:void(0)" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+          <a href="javascript:void(0)" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+          <a href="javascript:void(0)" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+          <a href="javascript:void(0)" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Fixed Back to Top Button -->
+<button onclick="scrollToTop()" class="fixed-back-to-top" id="backToTopBtn">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Bootstrap 5 JS (for other components) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<!-- ═══════════════════════════════
+     FAQ JS SECTION SATART
+═══════════════════════════════ -->
+
+<script>
+function toggle(btn) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+
+<!-- ═══════════════════════════════
+     FAQ JS SECTION END
+═══════════════════════════════ -->
+
+<script>
+  // Mobile Navigation Toggle
+  document.getElementById('himsToggler').addEventListener('click', function() {
+      document.body.classList.toggle('mobile-nav-open');
+      const mobileNav = document.getElementById('himsMobileNav');
+      if (mobileNav) {
+          if (mobileNav.classList.contains('open')) {
+              // Close with animation
+              mobileNav.classList.add('closing');
+              setTimeout(() => {
+                  mobileNav.classList.remove('open', 'closing');
+              }, 400);
+          } else {
+              // Open with animation
+              mobileNav.classList.add('open');
+          }
+      }
+  });
+
+  // Mobile Panel Toggles
+  function mobToggle(element, panelId) {
+      const panel = document.getElementById(panelId);
+      
+      // Simple toggle - just open/close current panel
+      if (panel.classList.contains('open')) {
+          panel.classList.remove('open');
+          element.classList.remove('open');
+      } else {
+          panel.classList.add('open');
+          element.classList.add('open');
+      }
+  }
+
+  // Mobile Sub-Panel Toggles
+  function mobSubToggle(header, panelId) {
+      const panel = document.getElementById(panelId);
+      
+      // Simple toggle - just open/close current panel
+      if (panel.classList.contains('collapsed')) {
+          panel.classList.remove('collapsed');
+          header.classList.add('open');
+      } else {
+          panel.classList.add('collapsed');
+          header.classList.remove('open');
+      }
+  }
+
+  // Desktop Mega Menu Accordion
+  document.querySelectorAll('.mega-sub-accordion').forEach(accordion => {
+      accordion.addEventListener('click', function() {
+          const content = this.nextElementSibling;
+          const allAccordions = document.querySelectorAll('.mega-sub-accordion');
+          const allContents = document.querySelectorAll('.mega-sub-content');
+          
+          // Close all other accordions
+          allAccordions.forEach(a => {
+              if (a !== this) {
+                  a.classList.remove('active');
+              }
+          });
+          
+          allContents.forEach(c => {
+              if (c !== content) {
+                  c.classList.remove('active');
+              }
+          });
+          
+          // Toggle current accordion
+          this.classList.toggle('active');
+          content.classList.toggle('active');
+      });
+  });
+
+  // Scroll to Top Function
+  function scrollToTop() {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  }
+
+  // Show/Hide Back to Top Button based on scroll
+  window.addEventListener('scroll', function() {
+      const backToTopBtn = document.getElementById('backToTopBtn');
+      if (window.pageYOffset > 300) {
+          backToTopBtn.classList.add('show');
+      } else {
+          backToTopBtn.classList.remove('show');
+      }
+  });
+
+  // Initial check for button visibility
+  document.addEventListener('DOMContentLoaded', function() {
+      const backToTopBtn = document.getElementById('backToTopBtn');
+      if (window.pageYOffset > 300) {
+          backToTopBtn.classList.add('show');
+      }
+  });
+</script>
+</body>
+</html>

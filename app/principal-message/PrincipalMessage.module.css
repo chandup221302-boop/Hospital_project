@@ -1,0 +1,283 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: linear-gradient(rgba(109, 16, 32, 0.85), rgba(109, 16, 32, 0.85)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 20px 40px rgba(109, 16, 32, 0.15);
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+/* MESSAGE SECTION */
+.messageSection {
+  padding: 80px 0 120px;
+}
+
+.messageCard {
+  background: #fff;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.02);
+}
+
+/* PROFILE COLUMN */
+.profileCol {
+  background: #fdfaf7;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/5;
+  overflow: hidden;
+}
+
+.principalImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.messageCard:hover .principalImg {
+  transform: scale(1.05);
+}
+
+.nameOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background: linear-gradient(transparent, rgba(109, 16, 32, 0.95));
+  color: #fff;
+}
+
+.nameOverlay h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.nameOverlay p {
+  font-size: 0.9rem;
+  color: #ffd27a;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.quickPoints {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pointItem {
+  display: flex;
+  
+  gap: 15px;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+  transition: all 0.3s ease;
+}
+
+.pointItem:hover {
+  background: #6d1020;
+  color: #fff;
+  transform: translateX(10px);
+}
+
+.pointItem svg {
+  color: #6d1020;
+  font-size: 1.2rem;
+}
+
+.pointItem:hover svg {
+  color: #ffd27a;
+}
+
+.pointItem span {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* CONTENT COLUMN */
+.contentCol {
+  padding: 60px;
+  background: #fff;
+}
+
+.sectionHeader {
+  margin-bottom: 40px;
+}
+
+.sectionHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.sectionHeader h2 span {
+  color: #6d1020;
+}
+
+.accentLine {
+  width: 80px;
+  height: 5px;
+  background: #ffd27a;
+  border-radius: 10px;
+}
+
+.messageBody {
+  position: relative;
+}
+
+.quoteIcon {
+  font-size: 4rem;
+  color: #6d1020;
+  opacity: 0.05;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+
+.messageBody p {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 1;
+  text-align: justify;
+}
+
+.closing {
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.signatureWrap {
+  display: flex;
+  
+  gap: 25px;
+}
+
+.sigIcon {
+  font-size: 3rem;
+  color: #6d1020;
+  opacity: 0.2;
+}
+
+.sigInfo strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.sigInfo h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #6d1020;
+  margin-bottom: 5px;
+}
+
+.sigInfo span {
+  font-size: 0.9rem;
+  color: #888;
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+  .contentCol {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+    padding: 100px 0;
+  }
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .profileCol {
+    padding-bottom: 20px;
+  }
+  .contentCol {
+    padding: 30px 20px;
+  }
+  .sectionHeader h2 {
+    font-size: 1.8rem;
+  }
+  .messageBody p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .sigInfo h4 {
+    font-size: 1.4rem;
+  }
+}

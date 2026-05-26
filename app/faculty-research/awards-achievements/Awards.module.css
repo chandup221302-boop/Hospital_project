@@ -1,0 +1,196 @@
+.mainContainer {
+  background: #fdfaf7;
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+.heroSection {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(109, 16, 32, 0.85), rgba(109, 16, 32, 0.85)), url('/Images/Image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 20px 40px rgba(109, 16, 32, 0.15);
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 210, 122, 0.2);
+  color: #ffd27a;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 210, 122, 0.3);
+}
+
+.heroContent h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.heroContent h1 span {
+  color: #ffd27a;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.contentSection {
+  padding: 80px 0;
+}
+
+.awardBlock {
+  margin-bottom: 100px;
+}
+
+.awardBlock:last-child {
+  margin-bottom: 0;
+}
+
+.awardTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #6d1020;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.awardLine {
+  width: 60px;
+  height: 3px;
+  background: #6d1020;
+  margin-bottom: 1.5rem;
+}
+
+.awardText p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.awardText ul {
+  list-style: none;
+  padding: 0;
+}
+
+.awardText ul li {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.awardText ul li svg {
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.imagesRow {
+  display: flex;
+  gap: 20px;
+}
+
+.imagesRow img {
+  width: calc(50% - 10px);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.singleImage {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.textListItem {
+  margin-bottom: 40px;
+}
+
+.textListItem h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.textListItem .subLine {
+  width: 40px;
+  height: 2px;
+  background: #6d1020;
+  margin-bottom: 15px;
+}
+
+.textListItem p, .textListItem li {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.textListItem ol {
+  padding-left: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.textListItem ol li {
+  margin-bottom: 15px;
+}
+
+.hashtag {
+  color: #6d1020;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+  .heroContent h1 {
+    font-size: 3rem;
+  }
+  .imagesRow {
+    flex-direction: column;
+  }
+  .imagesRow img {
+    width: 100%;
+  }
+  .awardBlock {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  .heroSection {
+    padding: 60px 0;
+    border-radius: 0 0 30px 30px;
+  }
+  .awardTitle {
+    font-size: 1.6rem;
+  }
+}

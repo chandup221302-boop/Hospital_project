@@ -1,0 +1,388 @@
+/* ══════════════════ TOP BAR STYLES ══════════════════ */
+
+/* Main Page Background Gradient - Reusable Class */
+.main-page-bg {
+  background: linear-gradient(140deg, var(--maroon-dark) 0%, var(--maroon) 55%, #3e0d19 100%);
+}
+
+.top-bar {
+  border-bottom: 2px solid var(--gold);
+  padding: 6px 0;
+  font-size: 0.78rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1300;
+}
+
+/* Apply main page background to TOP BAR */
+.top-bar.main-page-bg {
+  background: linear-gradient(140deg, var(--maroon-dark) 0%, var(--maroon) 55%, #3e0d19 100%) !important;
+}
+
+.top-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(201,146,42,0.12); border: 1px solid rgba(201,146,42,0.25);
+  color: var(--gold-light); padding: 4px 12px;
+  border-radius: 5px; font-size: 0.75rem; font-weight: 600;
+  text-decoration: none; transition: background .2s, color .2s;
+  letter-spacing: 0.03em; transition: background .2s, color .2s;
+  white-space: nowrap;
+}
+
+.top-btn:hover { 
+  background: var(--gold); 
+  color: var(--maroon-dark); 
+  border-color: var(--gold); 
+}
+
+.top-icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(201,146,42,0.08); border: 1px solid var(--border-gold);
+  color: var(--gold-light); font-size: 0.82rem; transition: all .2s;
+}
+
+.top-icon-btn:hover { 
+  background: var(--gold); 
+  color: var(--maroon-dark); 
+}
+
+/* Mobile responsive for top bar */
+@media (max-width: 767px) {
+  .top-bar {
+    padding: 8px 0;
+  }
+  .top-bar .container-fluid .d-flex {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  .top-bar .container-fluid .d-flex > div:first-child {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .top-bar .container-fluid .d-flex > div:last-child {
+    width: auto;
+    justify-content: center;
+    gap: 6px;
+  }
+  .top-btn {
+    font-size: 0.70rem;
+    padding: 3px 8px;
+    white-space: nowrap;
+  }
+  .top-icon-btn {
+    width: 28px; height: 28px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-bar .container-fluid .d-flex {
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+  }
+  .top-bar .container-fluid .d-flex > div {
+    width: auto;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  .top-bar .container-fluid .d-flex > div:last-child {
+    justify-content: flex-end;
+  }
+}
+
+/* ══════════════════ HERO CARD TOP BAR STYLES ══════════════════ */
+
+.feat-card .top-bar {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  height: 4px;
+  background: linear-gradient(90deg, #8B1A10, #e05043);
+  border-radius: 20px 20px 0 0; 
+  opacity: 0; 
+  transition: opacity 0.28s ease;
+}
+
+.feat-card:hover .top-bar { 
+  opacity: 1; 
+}
+
+/* ══════════════════ END TOP BAR STYLES ══════════════════ */
+/* =============================== */
+/* ROOT COLORS */
+/* =============================== */
+
+:root{
+
+  --maroon-dark:#3e0d19;
+  --maroon:#6d1020;
+
+  --gold:#c9922a;
+  --gold-light:#ffd27a;
+
+  --border-gold:rgba(201,146,42,0.25);
+
+}
+
+/* =============================== */
+/* RESET */
+/* =============================== */
+
+*{
+
+  margin:0;
+  padding:0;
+
+  box-sizing:border-box;
+
+}
+
+/* =============================== */
+/* BODY */
+/* =============================== */
+
+body{
+
+  font-family:Arial, sans-serif;
+
+  background:#f5f5f5;
+
+  padding-top:80px;
+
+}
+
+/* =============================== */
+/* MAIN TOP BAR */
+/* =============================== */
+
+#main-top-bar{
+
+  width:100%;
+
+  position:fixed;
+
+  top:0;
+  left:0;
+  right:0;
+
+  z-index:9999;
+
+  padding:7px 0;
+
+  border-bottom:2px solid var(--gold);
+
+  background:linear-gradient(
+    140deg,
+    var(--maroon-dark) 0%,
+    var(--maroon) 55%,
+    #3e0d19 100%
+  ) !important;
+
+}
+
+/* =============================== */
+/* TOPBAR CONTAINER */
+/* =============================== */
+
+#topbar-container{
+
+  width:100%;
+
+  padding:0 20px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  gap:15px;
+
+}
+
+/* =============================== */
+/* LEFT SIDE */
+/* =============================== */
+
+#topbar-left{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+}
+
+/* =============================== */
+/* RIGHT SIDE */
+/* =============================== */
+
+#topbar-right{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+}
+
+/* =============================== */
+/* TOP BUTTON */
+/* =============================== */
+
+#main-top-bar .top-btn{
+
+  display:inline-flex;
+
+  align-items:center;
+
+  gap:6px;
+
+  text-decoration:none;
+
+  white-space:nowrap;
+
+  padding:5px 12px;
+
+  border-radius:6px;
+
+  font-size:13px;
+
+  font-weight:600;
+
+  color:var(--gold-light);
+
+  border:1px solid rgba(201,146,42,0.25);
+
+  background:rgba(201,146,42,0.12);
+
+  transition:0.25s;
+
+}
+
+/* HOVER */
+
+#main-top-bar .top-btn:hover{
+
+  background:var(--gold);
+
+  color:var(--maroon-dark);
+
+}
+
+/* =============================== */
+/* ICON BUTTON */
+/* =============================== */
+
+#main-top-bar .top-icon-btn{
+
+  width:32px;
+
+  height:32px;
+
+  border-radius:50%;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  text-decoration:none;
+
+  color:var(--gold-light);
+
+  border:1px solid var(--border-gold);
+
+  background:rgba(201,146,42,0.08);
+
+  transition:0.25s;
+
+}
+
+/* HOVER */
+
+#main-top-bar .top-icon-btn:hover{
+
+  background:var(--gold);
+
+  color:var(--maroon-dark);
+
+}
+
+/* =============================== */
+/* DUMMY CONTENT */
+/* =============================== */
+
+#dummy-content{
+
+  padding:120px 20px;
+
+  text-align:center;
+
+}
+
+#dummy-content h1{
+
+  font-size:42px;
+
+  margin-bottom:20px;
+
+  color:#222;
+
+}
+
+#dummy-content p{
+
+  font-size:18px;
+
+  color:#666;
+
+}
+
+/* =============================== */
+/* MOBILE RESPONSIVE */
+/* =============================== */
+
+@media(max-width:768px){
+
+  #topbar-container{
+
+    flex-direction:row;
+
+    gap:10px;
+
+  }
+
+  #topbar-left{
+
+    width:100%;
+
+    overflow-x:auto;
+
+    justify-content:flex-start;
+
+  }
+
+  #main-top-bar .top-btn{
+
+    font-size:12px;
+
+    padding:4px 10px;
+
+  }
+
+}
